@@ -1,6 +1,12 @@
 # 1. INTRODUÇÃO
 
-Contextualizar a área de pesquisa do trabalho, apresentando conceitos e dados relacionados antes de apresentar a problemática a ser investigada.
+Os hábitos constituem um conjunto de ações que executamos de forma automática, sendo construídos a partir da repetição de tarefas no dia a dia (MIT News, 2012). As regiões do cérebro humano ativadas durante o processo de automatização do comportamento são o estriado dorsal e o córtex pré-frontal, sendo o primeiro responsável pela formação da associação entre estímulo e resposta, enquanto o segundo atua no monitoramento e na tomada de decisões.
+ 
+De acordo com dados da Organização Mundial da Saúde (OMS), o Brasil é o país com os maiores índices de ansiedade do mundo. Durante a pandemia da Covid-19, houve um aumento alarmante de 25% nos casos de ansiedade e depressão a nível global, sendo o estresse um dos fatores que impulsionaram esses números. Além disso, a alta exposição aos dispositivos eletrônicos, como celulares e tablets, contribuiu para o aumento da ansiedade, segundo um estudo realizado pela Canadian Journal of Psychiatry (G1, 2023).
+ 
+Entretanto, estudos indicam que os exercícios físicos, independentemente do tipo, podem exercer efeitos ansiolíticos e antidepressivos, ou seja, de prevenção e amenização de crises de ansiedade e depressão, devido ao controle da respiração durante a prática, o que ajuda o corpo a se autorregular e a reduzir a tensão elevada (UNIMED Campinas, 2024).
+ 
+Com base nisso, observa-se a importância e a necessidade da incorporação de hábitos saudáveis no cotidiano para promover a prevenção de inúmeros transtornos, incluindo a ansiedade e a depressão, por meio da prática de atividades físicas, construção de um sono regulado e alimentação adequada.
 
 ## 1.1. Problema
 
