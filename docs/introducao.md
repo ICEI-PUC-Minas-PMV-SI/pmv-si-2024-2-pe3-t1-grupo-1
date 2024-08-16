@@ -6,7 +6,7 @@ De acordo com dados da Organização Mundial da Saúde (OMS), o Brasil é o paí
  
 Entretanto, estudos indicam que os exercícios físicos, independentemente do tipo, podem exercer efeitos ansiolíticos e antidepressivos, ou seja, de prevenção e amenização de crises de ansiedade e depressão, devido ao controle da respiração durante a prática, o que ajuda o corpo a se autorregular e a reduzir a tensão elevada (UNIMED Campinas, 2024).
  
-Com base nisso, observa-se a importância e a necessidade da incorporação de hábitos saudáveis no cotidiano para promover a prevenção de inúmeros transtornos, incluindo a ansiedade e a depressão, por meio da prática de atividades físicas, construção de um sono regulado e alimentação adequada.
+Com base nisso, observa-se a importância e a necessidade da incorporação de hábitos saudáveis no cotidiano para promover a prevenção de inúmeros transtornos, incluindo a ansiedade e a depressão, por meio da prática de atividades físicas, construção de um sono e alimentação adequados.
 
 ## 1.1. Problema
 
