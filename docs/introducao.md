@@ -40,6 +40,6 @@ O público-alvo do projeto inclui desde jovens adultos até idosos que estejam b
 
 Jovens Adultos: Este grupo busca uma ferramenta que permita acompanhar e controlar as atividades diárias relacionadas a bons hábitos como exercício físico, alimentação balanceada e qualidade do sono, de forma prática e intuitiva.
 
-Idosos: Para os idosos, é importante ter acesso a informações acessíveis e confiáveis que os guiem na adoção de hábitos saudáveis. Através de conteúdos teóricos em vídeo ou leitura, a aplicação deve oferecer informações claras e compreensíveis sobre práticas de bem-estar.
+Idosos: Para os idosos, é importante ter acesso a informações acessíveis e confiáveis que os guiem na adoção de hábitos saudáveis. Através de conteúdos teóricos em vídeo ou leitura, o sistema web deve oferecer informações claras e compreensíveis sobre práticas de bem-estar.
 
-Entre os usuários potenciais, destacam-se profissionais que levam uma vida agitada e, muitas vezes, estressante, além de pessoas que já possuem alguma experiência com o uso de aplicativos de saúde.
+Entre os usuários potenciais, destacam-se profissionais que levam uma vida agitada e, muitas vezes, estressante, além de pessoas que já possuem alguma experiência com a utilização de sistemas de saúde.
