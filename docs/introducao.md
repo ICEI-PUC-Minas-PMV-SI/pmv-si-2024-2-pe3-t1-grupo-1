@@ -10,17 +10,32 @@ Com base nisso, observa-se a importância e a necessidade da incorporação de h
 
 ## 1.1. Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. 
-Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+Atualmente, muitas pessoas encontram dificuldades para manter uma rotina saudável, sendo influenciadas por fatores como a falta de tempo, desmotivação ou desconhecimento sobre como iniciar e manter práticas que promovam o bem-estar. O contexto pandêmico, aliado ao aumento do uso de tecnologias digitais, intensificou a situação, contribuindo para um estilo de vida mais sedentário e uma maior exposição ao estresse.
+
+Nesse sentido, existe uma necessidade crescente de ferramentas acessíveis que possam auxiliar na criação e manutenção de hábitos saudáveis, como a prática regular de exercícios físicos, uma alimentação equilibrada e um padrão de sono adequado. 
+
+Portanto, o problema central a ser abordado reside na falta de suporte contínuo e personalizado que ajude os indivíduos a superar as barreiras na adoção e manutenção de hábitos saudáveis. O desafio consiste em proporcionar uma solução que não apenas monitore, mas também motive e guie os usuários em suas jornadas pessoais de bem-estar, incorporando os hábitos saudáveis nas rotinas diárias.
 
 ## 1.2. Objetivos do trabalho
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. O objetivo geral deve resumir e apresentar a ideia central de um trabalho, descrevendo também a sua finalidade. Os objetivos específicos darão uma maior delimitação ao tema, além de detalhar os processos necessários para a realização do trabalho.
+O objetivo geral deste trabalho é desenvolver uma aplicação que auxilie os usuários a monitorar e controlar seus hábitos saudáveis, promovendo um estilo de vida mais equilibrado e prevenindo problemas de saúde relacionados à ansiedade, depressão e sedentarismo.
+
+Os objetivos específicos incluem:
+
+
+- Criar funcionalidades que permitam ao usuário registrar e monitorar suas atividades físicas, alimentação e qualidade do sono.
+- Implementar lembretes e notificações personalizadas para incentivar a prática de hábitos saudáveis.
+- Apresentar conteúdos educacionais como artigos, vídeos e estudos científicos sobre a importância de hábitos saudáveis, incluindo dicas práticas para incorporá-los no dia a dia.
+- Integrar uma funcionalidade que analise e forneça resumos sobre o progresso do usuário.
 
 ## 1.3. Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A escolha por desenvolver um aplicativo de monitoramento e controle de hábitos saudáveis é motivada pela crescente preocupação com a saúde mental e física na sociedade contemporânea. A pandemia de Covid-19 evidenciou a fragilidade dos hábitos de saúde por grande parte da população, trazendo à tona a necessidade de soluções práticas e acessíveis que possam ajudar a melhorar a qualidade de vida. 
+
+Além disso, a popularização dos dispositivos móveis e vestíveis oferece uma oportunidade única para criar uma ferramenta que possa ser utilizada de forma contínua e integrada no dia a dia dos usuários, potencializando o impacto positivo na saúde de cada indivíduo.
 
 ## 1.4. Público alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+O público-alvo do projeto inclui desde jovens adultos até idosos que estejam  buscando melhorar sua qualidade de vida por meio da adoção de hábitos mais saudáveis. Esse grupo é composto por pessoas que possuem familiaridade com tecnologia (celulares e computadores) e que buscam soluções práticas e acessíveis para monitorar e gerenciar suas rotinas de saúde. 
+
+Entre os usuários potenciais, destacam-se profissionais que levam uma vida agitada e, muitas vezes, estressante, além de pessoas que já possuem alguma experiência com o uso de aplicativos de saúde.
