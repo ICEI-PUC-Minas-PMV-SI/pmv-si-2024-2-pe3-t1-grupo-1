@@ -30,7 +30,7 @@ Os objetivos específicos incluem:
 
 ## 1.3. Justificativa
 
-A escolha por desenvolver um aplicativo de monitoramento e controle de hábitos saudáveis é motivada pela crescente preocupação com a saúde mental e física na sociedade contemporânea. A pandemia de Covid-19 evidenciou a fragilidade dos hábitos de saúde por grande parte da população, trazendo à tona a necessidade de soluções práticas e acessíveis que possam ajudar a melhorar a qualidade de vida. 
+A escolha por desenvolver um sistema web de monitoramento e controle de hábitos saudáveis é motivada pela crescente preocupação com a saúde mental e física na sociedade contemporânea. A pandemia de Covid-19 evidenciou a fragilidade dos hábitos de saúde por grande parte da população, trazendo à tona a necessidade de soluções práticas e acessíveis que possam ajudar a melhorar a qualidade de vida. 
 
 Além disso, a popularização dos dispositivos móveis e vestíveis oferece uma oportunidade única para criar uma ferramenta que possa ser utilizada de forma contínua e integrada no dia a dia dos usuários, potencializando o impacto positivo na saúde de cada indivíduo.
 
