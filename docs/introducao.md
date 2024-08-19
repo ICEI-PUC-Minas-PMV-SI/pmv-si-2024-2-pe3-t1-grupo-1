@@ -18,7 +18,7 @@ Portanto, o problema central a ser abordado reside na falta de suporte contínuo
 
 ## 1.2. Objetivos do trabalho
 
-O objetivo geral deste trabalho é desenvolver uma aplicação que auxilie os usuários a monitorar e controlar seus hábitos saudáveis, promovendo um estilo de vida mais equilibrado e prevenindo problemas de saúde relacionados à ansiedade, depressão e sedentarismo.
+O objetivo geral deste trabalho é desenvolver um sistema web que auxilie os usuários a monitorar e controlar seus hábitos saudáveis, promovendo um estilo de vida mais equilibrado e prevenindo problemas de saúde relacionados à ansiedade, depressão e sedentarismo.
 
 Os objetivos específicos incluem:
 
