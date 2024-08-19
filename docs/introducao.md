@@ -36,7 +36,7 @@ Além disso, a popularização dos dispositivos móveis e vestíveis oferece uma
 
 ## 1.4. Público alvo
 
-O público-alvo do projeto inclui desde jovens adultos até idosos que estejam buscando melhorar sua qualidade de vida por meio da adoção de hábitos mais saudáveis. Esse grupo é composto por pessoas que possuem familiaridade com tecnologia (celulares e computadores) e que buscam soluções práticas e acessíveis para monitorar e gerenciar suas rotinas de saúde. 
+O público-alvo do projeto inclui desde jovens adultos até idosos que estejam buscando melhorar sua qualidade de vida por meio da adoção de hábitos mais saudáveis. Esse grupo é composto por pessoas que possuem familiaridade com tecnologia (dispositivos eletrônicos como celulares e computadores) e que buscam soluções práticas e acessíveis para monitorar e gerenciar suas rotinas de saúde. 
 
 Jovens Adultos: Este grupo busca uma ferramenta que permita acompanhar e controlar as atividades diárias relacionadas a bons hábitos como exercício físico, alimentação balanceada e qualidade do sono, de forma prática e intuitiva.
 
