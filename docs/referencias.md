@@ -1,6 +1,7 @@
 # REFERÊNCIAS
 
 Lista de referências utilizadas e citadas no trabalho.
+
 [1] Kleina, Olivia. Como mudar um hábito, de acordo com a neurociência. - 13 de Maio, 2024. Disponível em: https://posdigital.pucpr.br/blog/como-mudar-habito-neurociencia
 Acesso em 19 ago. 2024.
 
