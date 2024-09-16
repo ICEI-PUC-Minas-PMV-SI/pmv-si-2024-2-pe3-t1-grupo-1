@@ -10,7 +10,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Fabiane Santos Soares
+* Fabiana Santos Soares
 * Filipe Acacio Costa
 * Gregory Stevao Amilar Costa
 * João Pedro Silva de Oliveira
