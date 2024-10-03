@@ -1,4 +1,4 @@
-# Título do Projeto
+# Projeto Saúde e Equilíbrio
 
 `CURSO: Sistemas de Informação`
 
@@ -6,7 +6,7 @@
 
 `SEMESTRE: 3º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O objetivo deste trabalho é desenvolver um sistema web que auxilie os usuários a monitorar e controlar seus hábitos saudáveis, promovendo um estilo de vida mais equilibrado e prevenindo problemas de saúde relacionados à ansiedade, depressão e sedentarismo.
 
 ## Integrantes
 
