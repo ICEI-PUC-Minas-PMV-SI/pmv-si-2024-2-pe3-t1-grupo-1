@@ -1,29 +1,29 @@
 # 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
 
-Nesta parte do trabalho você deve detalhar a documentação dos requisitos do sistema proposto de acordo com as seções a seguir. Ressalta-se que aqui é utilizado como exemplo um sistema de gestão de cursos de aperfeiçoamento.
-
 ## 3.1 Objetivos deste documento
-Descrever e especificar as necessidades da Coordenação do Curso de Sistemas de Informação da PUC Minas que devem ser atendidas pelo projeto SCCA – Sistema de Cadastro de Cursos de Aperfeiçoamento.
+Definir os requisitos necessários para o desenvolvimento da aplicação web voltada para jovens e adultos, que permitirá o registro e o monitoramento de hábitos saudáveis, atendendo às necessidades estabelecidas pelo projeto Saúde e Equilíbrio.
 
 ## 3.2 Escopo do produto
 
 ### 3.2.1 Nome do produto e seus componentes principais
-O produto será denominado SCCA – Sistema de Cadastro de Cursos de Aperfeiçoamento. Ele terá somente um componente (módulo) com os devidos elementos necessários à gestão de cursos.
+
 
 ### 3.2.2 Missão do produto
-Gerenciar informações sobre a oferta de cursos de aperfeiçoamento, gerenciar a composição das turmas, alunos, professores e matrículas. 
+Gerenciar informações relacionadas ao monitoramento de hábitos saudáveis, fornecendo recursos para acompanhamento de metas, práticas diárias, e oferecendo conteúdos educativos. O sistema web também visa personalizar a experiência do usuário com base em suas atividades e progresso, promovendo a manutenção de um estilo de vida equilibrado e sustentável.
 
 ### 3.2.3 Limites do produto
-O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcelas do curso, pagamento a professore e agendamentos. O SCCA não contempla o atendimento a vários cursos de Sistemas de Informação de outras unidades da PUC Minas.
+O projeto Saúde e Equilíbrio não substitui a necessidade de consultas médicas, exames laboratoriais ou acompanhamento profissional especializado. A aplicação web serve como uma ferramenta de monitoramento e incentivo de hábitos saudáveis, mas não realiza diagnósticos, tratamentos ou recomendações médicas personalizadas.
 
 ### 3.2.4 Benefícios do produto
 
 | # | Benefício | Valor para o Cliente |
 |--------------------|------------------------------------|----------------------------------------|
-|1	| Facilidade no cadastro de dados |	Essencial |
-|2 | Facilidade na recuperação de informações | Essencial | 
-|3 | Segurança no cadastro de matrículas | Essencial | 
-|4	| Melhoria na comunicação com os alunos	| Recomendável | 
+|1	| Facilidade no registro e acompanhamento de hábitos |	Essencial |
+|2 | Facilidade na visualização do progresso e metas | Essencial | 
+|3 | Acesso a conteúdos educativos personalizados | Essencial | 
+|4	| Desencorajamento de hábitos prejudiciais	| Recomendável | 
+|5 | Motivação e engajamento para manter os hábitos saudáveis	| Recomendável | 
+|6 | Melhora na qualidade de vida e redução de doenças crônicas	| Recomendável | 
 
 ## 3.3 Descrição geral do produto
 
@@ -40,18 +40,20 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 
 | Código | Requisito Não Funcional (Restrição) |
 |--------------------|------------------------------------|
-| RNF1 | O ambiente operacional a ser utilizado é o Windows XP. |
-| RNF2 | O sistema deverá executar em um computador configurado com uma impressora de tecnologia laser ou de jato de tinta, a ser usada para impressão dos relatórios. |
-| RNF3 |	Segurança	O produto deve restringir o acesso por meio de senhas individuais para o usuário. |
-| ... |	... |	... |
+| RNF1 | A aplicação web deve ser responsiva para atender diferentes tipos de dispositivos. (Usabilidade) |
+| RNF2 | As informações pessoais dos usuários devem ser armazenadas seguindo as normas da LGDP (Lei Geral de Proteção de Dados Pessoais). (Segurança) |
+| RNF3 |	A aplicação web deve realizar a autenticação dos usuários antes de permitir o acesso aos recursos. (Segurança) |
+| RNF4 | A aplicação web deve ser tolerante a potenciais falhas. (Confiabilidade) |
+| RNF5 | A aplicação web deve estar disponível 90% do tempo durante o mês, garantindo um tempo de inatividade mínimo. (Disponibilidade) |
+| RNF6 | O sistema deverá retornar uma solicitação em no máximo 5 segundos. (Desempenho) |
 
 ### 3.3.3 Usuários 
 
 | Ator | Descrição |
 |--------------------|------------------------------------|
-| Coordenador |	Usuário gerente do sistema responsável pelo cadastro e manutenção de cursos de aperfeiçoamento. Possui acesso geral ao sistema. |
-| Secretaria |	Usuário responsável por registros de alunos, professores, turmas e gerência de matrículas. |
-| ... |	... |	... |
+| Usuário não cadastrado |	Usuário responsável por acessar e compartilhar conteúdos educacionais nas redes sociais. |
+| Usuário |	Usuário responsável por gerenciar atividades físicas, alimentação, sono e progresso nas tarefas. Possui acesso completo às funcionalidades da aplicação. |
+| Administrador |	Usuário responsável por gerenciar os conteúdos educacionais. |
 
 ## 3.4 Modelagem do Sistema
 
