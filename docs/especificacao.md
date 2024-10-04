@@ -6,11 +6,9 @@ Definir os requisitos necessários para o desenvolvimento da aplicação web vol
 ## 3.2 Escopo do produto
 
 ### 3.2.1 Nome do produto e seus componentes principais
-
-
+O produto “Saúde e Equilíbrio” será uma aplicação web voltada para o gerenciamento de práticas saudáveis, composta por quatro módulos principais: registro de hábitos saudáveis, gestão de usuários, conteúdos educacionais e comunidades. 
 ### 3.2.2 Missão do produto
-Gerenciar informações relacionadas ao monitoramento de hábitos saudáveis, fornecendo recursos para acompanhamento de metas, práticas diárias, e oferecendo conteúdos educativos. O sistema web também visa personalizar a experiência do usuário com base em suas atividades e progresso, promovendo a manutenção de um estilo de vida equilibrado e sustentável.
-
+Gerenciar informações relacionadas ao monitoramento de hábitos saudáveis, fornecendo recursos para o acompanhamento de metas, práticas diárias e conteúdos educativos. O sistema web visa promover a manutenção de um estilo de vida equilibrado e saudável, auxiliando os usuários no controle de atividades.
 ### 3.2.3 Limites do produto
 O projeto Saúde e Equilíbrio não substitui a necessidade de consultas médicas, exames laboratoriais ou acompanhamento profissional especializado. A aplicação web serve como uma ferramenta de monitoramento e incentivo de hábitos saudáveis, mas não realiza diagnósticos, tratamentos ou recomendações médicas personalizadas.
 
@@ -19,8 +17,8 @@ O projeto Saúde e Equilíbrio não substitui a necessidade de consultas médica
 | # | Benefício | Valor para o Cliente |
 |--------------------|------------------------------------|----------------------------------------|
 |1	| Facilidade no registro e acompanhamento de hábitos |	Essencial |
-|2 | Facilidade na visualização do progresso e metas | Essencial | 
-|3 | Acesso a conteúdos educativos personalizados | Essencial | 
+|2 | Facilidade no acesso a comunidades formadas por outros usuários | Essencial | 
+|3 | Facilidade no acesso a conteúdos educacionais | Essencial | 
 |4	| Desencorajamento de hábitos prejudiciais	| Recomendável | 
 |5 | Motivação e engajamento para manter os hábitos saudáveis	| Recomendável | 
 |6 | Melhora na qualidade de vida e redução de doenças crônicas	| Recomendável | 
@@ -31,10 +29,19 @@ O projeto Saúde e Equilíbrio não substitui a necessidade de consultas médica
 
 | Código | Requisito Funcional (Funcionalidade) | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| RF1 | Gerenciar Curso de Aperfeiçoamento |	Processamento de Inclusão, Alteração, Exclusão e Consulta de Cursos de Aperfeiçoamento |
-| RF2 |	Gerenciar Professor	| Processamento de Inclusão, Alteração, Exclusão e Consulta de professores |
-| RF3	| Gerenciar Matrícula |	Processamento de Inclusão, Alteração, Exclusão e Consulta de Matrículas de alunos em Cursos de Aperfeiçoamento |
-| ... |	...	| ... |
+| RF1 | Gerenciar Atividades Físicas |	Criação, alteração, exclusão e consulta das atividades físicas registradas pelo usuário.|
+| RF2 |	Gerenciar Alimentação	| Criação, alteração, exclusão e consulta das informações alimentares registradas pelo usuário. |
+| RF3	| Gerenciar Qualidade do Sono |	Criação, alteração, exclusão e consulta dos dados sobre a qualidade do sono. |
+| RF4 |	Gerenciar Conteúdos Educacionais	| Criação, alteração, exclusão e consulta dos conteúdos educacionais registrados pelo usuário.|
+| RF5 |	Notificar o Usuário	| Notificações diárias para lembrar o usuário de manter a prática dos hábitos saudáveis. |
+| RF6 |	Gerenciar Conta do Usuário | Criação, alteração, exclusão e consulta sobre os dados pessoais do usuário. |
+| RF7 |	Compartilhar Conteúdos Educacionais | Permitir a disseminação dos conteúdos educacionais por meio das redes sociais. |
+| RF8 |	Gerenciar Metas | Criação, alteração, exclusão e consulta das metas registradas pelos usuários. |
+| RF9 |	Gerenciar Comunidades | Criação, alteração, exclusão e consulta das comunidades criadas pelos usuários. |
+| RF10 |	Gerenciar Humor | Criação, alteração, exclusão e consulta dos registros de humor realizados pelo usuário. |
+| RF11 |	Gerar Alertas de Tendências Negativas | Gerar alertas automáticos caso o sistema detecte uma queda ou tendência negativa nos hábitos saudáveis do usuário, sugerindo intervenções ou mudanças. |
+| RF12 |	Entrar na aplicação web | Permitir ao usuário cadastrado realizar login na aplicação web. |
+| RF13 |	Sair da aplicação web | Permitir ao usuário cadastrado realizar logout da aplicação web. |
 
 ### 3.3.2 Requisitos Não Funcionais
 
