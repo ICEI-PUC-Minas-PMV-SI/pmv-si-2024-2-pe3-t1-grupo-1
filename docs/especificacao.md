@@ -69,7 +69,7 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
-![Diagrama de casos de uso](https://github.com/user-attachments/assets/651f2396-257d-4a0f-a22c-e65af3cbce3b)
+![Diagrama de Casos de Uso - Saúde e Equilibrio](https://github.com/user-attachments/assets/950700e2-2a78-4b38-990d-a553d71df9b9)
 
 ### 3.4.2 Descrições de Casos de Uso
 
@@ -126,7 +126,7 @@ A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a i
 
 #### Figura 2: Diagrama de Classes do Sistema.
  
-![Diagrama de classes](https://github.com/user-attachments/assets/41c9e9c0-5993-4636-b5cb-93acc4b337c9)
+![Diagrama de Classes - Saúde e Equilibrio](https://github.com/user-attachments/assets/3c9be173-a7d7-4a6a-9428-5179b2fd9bf9)
 
 ### 3.4.4 Descrições das Classes 
 
