@@ -122,7 +122,14 @@ Pós-condições: Um professor foi inserido ou removido, seus dados foram altera
 
 ### 3.4.3 Diagrama de Classes 
 
-A Figura 2 mostra o diagrama de classes da aplicação web Saúde e Equilíbrio.
+A Figura 2 mostra o diagrama de classes da aplicação web "Saúde e Equilíbrio". No diagrama, as seguintes regras de negócio foram estabelecidas:
+ 
+A classe **Usuário** possui os atributos: nome, idade, endereço de e-mail e telefone, mantendo uma relação de **associação** com as classes **Meta**, **Alimentação**, **Humor**, **Comunidade**, **Atividade Física**, **Qualidade do Sono** e **Conta Usuário**.
+ 
+- A relação entre **Usuário** e **Conta Usuário** indica que um usuário pode ter no máximo uma conta e uma conta deve estar vinculada a um usuário.
+- Para as demais classes associadas (Meta, Alimentação, Humor, Comunidade, Atividade Física e Qualidade do Sono), um usuário pode ter múltiplas instâncias de cada uma dessas entidades, mas cada entidade está associada a exatamente um usuário.
+ 
+Além disso, a classe **Administrador** herda as características da classe **Usuário**, através de uma relação de **herança**. O **Administrador** é responsável por gerenciar conteúdos educacionais, onde o administrador deve criar ao menos um conteúdo e os conteúdos devem estar associados a apenas um administrador.
 
 #### Figura 2: Diagrama de Classes do Sistema.
  
