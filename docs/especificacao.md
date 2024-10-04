@@ -69,8 +69,8 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
-![SaudeEquilibrio-Diagrama de casos de uso drawio](https://github.com/user-attachments/assets/8f626dc1-9d96-4004-8a21-78260c280542)
- 
+![Diagrama de casos de uso](https://github.com/user-attachments/assets/651f2396-257d-4a0f-a22c-e65af3cbce3b)
+
 ### 3.4.2 Descrições de Casos de Uso
 
 Cada caso de uso deve ter a sua descrição representada nesta seção. Exemplo:
@@ -126,7 +126,7 @@ A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a i
 
 #### Figura 2: Diagrama de Classes do Sistema.
  
-![SaudeEquilibrio-Diagrama de classes drawio](https://github.com/user-attachments/assets/2615543a-4932-4ec4-aea4-5ef505e29dd0)
+![Diagrama de classes](https://github.com/user-attachments/assets/41c9e9c0-5993-4636-b5cb-93acc4b337c9)
 
 ### 3.4.4 Descrições das Classes 
 
