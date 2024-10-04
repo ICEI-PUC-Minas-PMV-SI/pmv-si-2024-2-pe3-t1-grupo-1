@@ -69,7 +69,7 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
-![dcu](https://github.com/user-attachments/assets/41f6b731-b44e-43aa-911f-423ad6198f47)
+![SaudeEquilibrio-Diagrama de casos de uso drawio](https://github.com/user-attachments/assets/8f626dc1-9d96-4004-8a21-78260c280542)
  
 ### 3.4.2 Descrições de Casos de Uso
 
@@ -126,15 +126,19 @@ A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a i
 
 #### Figura 2: Diagrama de Classes do Sistema.
  
-![dcu](https://github.com/user-attachments/assets/97ab1aa8-eb03-4b58-9ad5-1697d414a451)
+![SaudeEquilibrio-Diagrama de classes drawio](https://github.com/user-attachments/assets/2615543a-4932-4ec4-aea4-5ef505e29dd0)
 
 ### 3.4.4 Descrições das Classes 
 
 | # | Nome | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| 1	|	Aluno |	Cadastro de informações relativas aos alunos. |
-| 2	| Curso |	Cadastro geral de cursos de aperfeiçoamento. |
-| 3 |	Matrícula |	Cadastro de Matrículas de alunos nos cursos. |
-| 4 |	Turma |	Cadastro de turmas.
-| 5	|	Professor |	Cadastro geral de professores que ministram as disciplinas. |
-| ... |	... |	... |
+| 1	|	Usuario |	Gerenciar informações referentes aos usuários, como por exemplo nome, idade, endereço e telefone. |
+| 2	| Administrador |	Controlar informações dos usuários administradores, como por exemplo o tipo de permissão. |
+| 3 |	ContaUsuario |	Gerenciar informações das contas dos usuários, como por exemplo nome, idade, endereço de e-mail, senha e telefone. |
+| 4 |	ConteudoEducacional | Gerenciar informações referentes aos conteúdos educacionais, como por exemplo o tipo do conteúdo, título e descrição.	|
+| 5	|	QualidadeSono |	Gerenciar informações relativas à qualidade do sono, como duração, horário para dormir, acordar e ambiente. |
+| 6	|	AtividadeFisica |	Gerenciar informações relativas à atividade física, como nome, duração, intensidade e categoria. |
+| 7	|	Comunidade |	Gerenciar informações das comunidades criadas pelos usuários, como por exemplo nome, quantidade de usuários, descrição e data de criação. |
+| 8 |	Humor |	Gerenciar informações referentes ao humor do usuário, como por exemplo tipo do humor, intensidade, descrição e data de criação. |
+| 9 |	Alimentacao |	Gerenciar informações referentes à alimentação do usuário, como por exemplo a quantidade de calorias, número de refeições, tipo da dieta e quantidade de água. |
+| 10 |	Meta | Gerenciar informações referentes às metas atribuídas para cada hábito, como por exemplo nome do hábito, descrição da meta, data de início e fim.	|
