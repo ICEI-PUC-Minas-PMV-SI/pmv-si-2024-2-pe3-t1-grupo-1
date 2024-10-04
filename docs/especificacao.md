@@ -1,7 +1,7 @@
 # 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
 
 ## 3.1 Objetivos deste documento
-Definir os requisitos necessários para o desenvolvimento da aplicação web voltada para jovens e adultos, que permitirá o registro e o monitoramento de hábitos saudáveis, atendendo às necessidades estabelecidas pelo projeto Saúde e Equilíbrio.
+Definir os requisitos necessários para o desenvolvimento da aplicação web voltada para jovens e adultos, que permitirá o registro e o monitoramento de hábitos saudáveis, atendendo às necessidades estabelecidas pelo projeto "Saúde e Equilíbrio".
 
 ## 3.2 Escopo do produto
 
@@ -10,7 +10,7 @@ O produto “Saúde e Equilíbrio” será uma aplicação web voltada para o ge
 ### 3.2.2 Missão do produto
 Gerenciar informações relacionadas ao monitoramento de hábitos saudáveis, fornecendo recursos para o acompanhamento de metas, práticas diárias e conteúdos educativos. O sistema web visa promover a manutenção de um estilo de vida equilibrado e saudável, auxiliando os usuários no controle de atividades.
 ### 3.2.3 Limites do produto
-O projeto Saúde e Equilíbrio não substitui a necessidade de consultas médicas, exames laboratoriais ou acompanhamento profissional especializado. A aplicação web serve como uma ferramenta de monitoramento e incentivo de hábitos saudáveis, mas não realiza diagnósticos, tratamentos ou recomendações médicas personalizadas.
+O projeto "Saúde e Equilíbrio" não substitui a necessidade de consultas médicas, exames laboratoriais ou acompanhamento profissional especializado. A aplicação web serve como uma ferramenta de monitoramento e incentivo de hábitos saudáveis, mas não realiza diagnósticos, tratamentos ou recomendações médicas personalizadas.
 
 ### 3.2.4 Benefícios do produto
 
@@ -65,7 +65,7 @@ O projeto Saúde e Equilíbrio não substitui a necessidade de consultas médica
 ## 3.4 Modelagem do Sistema
 
 ### 3.4.1 Diagrama de Casos de Uso
-Como observado no diagrama de casos de uso da Figura 1, a secretária poderá gerenciar as matrículas e professores no sistema, enquanto o coordenador, além dessas funções, poderá gerenciar os cursos de aperfeiçoamento.
+Conforme observado no diagrama de casos de uso (representado pela Figura 1) da aplicação web "Saúde e Equilíbrio", o **Usuário não cadastrado** pode compartilhar conteúdos educacionais nas redes sociais. O **Usuário Registrado** pode, além disso, entrar e sair da aplicação web, gerenciar atividades físicas, alimentação, sono, conta do usuário, comunidades, humor e metas. O **Administrador** é responsável por gerenciar os conteúdos educacionais, enquanto o usuário **Tempo** emite alertas e envia notificações ao usuário.
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
@@ -122,7 +122,7 @@ Pós-condições: Um professor foi inserido ou removido, seus dados foram altera
 
 ### 3.4.3 Diagrama de Classes 
 
-A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a identificação do funcionário responsável pelo registro, bem com os dados do aluno e turmas. Para uma disciplina podemos ter diversas turmas, mas apenas um professor responsável por ela.
+A Figura 2 mostra o diagrama de classes da aplicação web Saúde e Equilíbrio.
 
 #### Figura 2: Diagrama de Classes do Sistema.
  
