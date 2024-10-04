@@ -124,12 +124,20 @@ Pós-condições: Um professor foi inserido ou removido, seus dados foram altera
 
 A Figura 2 mostra o diagrama de classes da aplicação web "Saúde e Equilíbrio". No diagrama, as seguintes regras de negócio foram estabelecidas:
  
-A classe **Usuário** possui os atributos: nome, idade, endereço de e-mail e telefone, mantendo uma relação de **associação** com as classes **Meta**, **Alimentação**, **Humor**, **Comunidade**, **Atividade Física**, **Qualidade do Sono** e **Conta Usuário**.
+A classe **Usuário** possui como atributos: nome, idade, endereço de e-mail e telefone e mantém uma relação de **associação** com as classes **Meta**, **Alimentação**, **Humor**, **Comunidade**, **Atividade Física**, **Qualidade do Sono** e **Conta Usuário**.
  
-- A relação entre **Usuário** e **Conta Usuário** indica que um usuário pode ter no máximo uma conta e uma conta deve estar vinculada a um usuário.
+- A relação entre **Usuario** e **ContaUsuário** indica que um usuário pode ter no máximo uma conta e uma conta deve estar vinculada a um usuário. Os atributos da classe ContaUsuario são: nomeUsuario, idadeUsuario, enderecoEmail, telefoneUsuario e senhaUsuario.
 - Para as demais classes associadas (Meta, Alimentação, Humor, Comunidade, Atividade Física e Qualidade do Sono), um usuário pode ter múltiplas instâncias de cada uma dessas entidades, mas cada entidade está associada a exatamente um usuário.
+
+Os atributos relacionados a cada uma das classes são:
+- Meta: nomeHabito, descricaoMeta, dataInicio e dataFim.
+- Alimentacao: quantidadeCalorias, numeroRefeicoes, tipoDieta e quantidadeAgua.
+- Humor: tipoHumor, intensidadeHumor, descricaoHumor, dataCriacao.
+- Comunidade: nomeComunidade, quantidadeUsuarios, descricaoComunidade e dataCriacao.
+- AtividadeFisica: nome, duracao, intensidade e categoria.
+- QualidadeSono: duracaoSono, horarioDormir, horarioAcordar e ambienteSono.
  
-Além disso, a classe **Administrador** herda as características da classe **Usuário**, através de uma relação de **herança**. O **Administrador** é responsável por gerenciar conteúdos educacionais, onde o administrador deve criar ao menos um conteúdo e os conteúdos devem estar associados a apenas um administrador.
+Além disso, a classe **Administrador** herda as características da classe **Usuário**, através de uma relação de **herança**, possuindo como atributo único permissaoAdministrador. O **Administrador** é responsável por gerenciar conteúdos educacionais, que contém os seguintes atributos: tipoConteudo, tituloConteudo e descricaoConteudo. O administrador deve criar ao menos um conteúdo e os conteúdos devem estar associados a apenas um administrador.
 
 #### Figura 2: Diagrama de Classes do Sistema.
  
