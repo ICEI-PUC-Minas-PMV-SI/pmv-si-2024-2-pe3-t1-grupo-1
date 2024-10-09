@@ -3,7 +3,8 @@
 ## 4.1 Personas
 Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar uma persona por integrante do projeto. Sugere-se a utilização do gerador de personas disponibilizado ao final da página https://www.rdstation.com/blog/marketing/persona-o-que-e/.
 
-![image](https://github.com/user-attachments/assets/4397e408-af1d-4c9f-a1ec-5175b93027bc)
+![image](https://github.com/user-attachments/assets/f67a202e-42d7-41fb-874b-943718a4fbcf)
+
 
 
 ## 4.2 Mapa de Empatia
