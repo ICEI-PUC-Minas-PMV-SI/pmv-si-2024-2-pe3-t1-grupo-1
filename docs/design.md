@@ -5,7 +5,7 @@ Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar
 
 ![image](https://github.com/user-attachments/assets/5c2d8ed9-61e5-4011-b469-36b4f26a388c)
 
-![Persona Luiza Thomaz](https://github.com/user-attachments/assets/ddd4ab7c-af64-4c34-8559-a9213b116ab6)
+![Persona Luiza](https://github.com/user-attachments/assets/2278e4a9-c52a-45e4-ade6-5703b4eba5db)
 
 ![personaAlex](https://github.com/user-attachments/assets/d70e3d3e-23ca-4493-b53d-69459a48e48b)
 
