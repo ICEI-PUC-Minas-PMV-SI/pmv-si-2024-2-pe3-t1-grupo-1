@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700&display=swap');
+
+#login {
+    text-align: center;
+    padding: 100px;
+    background-color: #F8F8F7;
+}
+
+@media (max-width: 767px) {
+    #login {
+        text-align: center;
+        padding: 0px;
+        background-color: #F8F8F7;
+    }
+}
+
+#login h5 {
+    color: #0D4366;
+    font-weight: bold;
+}
+
+.form-check label {
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+}
+
+.form-signin {
+     width: 80%; 
+     display: inline-block;
+     max-width: 350px;
+     margin: 0 auto;
+}
+
+#paragrafo-cadastro {
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    max-width: 50px;
+}
+
+#TextoNovoUsuario {
+    color: #0D4366;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 0.900rem;
+    font-weight: 500;
+}
+
+.form-signin button {
+    background-color: #298EA6;
+    color: white;
+    border-color: #298EA6;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+    width: 200px;
+    height: 45px;
+    
+}
+
+#BotaoVoltar {
+    background-color: #FFFFFF;
+    color: #298EA6;
+    
+}
+
+.form-signin button:hover {
+    background-color: #298EA6;
+    color: white;
+    font-weight: bold;
+    border-color: #298EA6;
+    
+}
+
+.row {
+    background-color: #F8F8F7;
+}
+
+body {
+    background-color: #F8F8F7;
+}
+
+ 
+#container-mobile {
+    position: relative;
+    text-align: center;
+    color: #0D4366;
+}
+
+#container-mobile h5 {
+    padding-top: 20px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+    font-size: 2.225rem;
+    font-weight: bold;
+}
+
+  .centered { 
+    /* Alinhando texto dentro da imagem */
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 40px;
+    white-space: nowrap;
+    padding-bottom: 80px;
+    font-family: 'League Spartan', sans-serif;
+  }
+
+  #textosdesktop {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2.125rem;
+  }
+
+  #textosdesktop2 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.050rem;
+    color: #0D4366;
+    font-weight: 400;
+  }
+
+
+  footer {
+    color: #72757E;
+    font-weight: bold;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:0px;
+    text-align: center;
+  }
+
+  #formularioNome {
+    border: 2px solid #298EA6;
+    border-radius: 10px;
+  }
+
+  #formularioIdade {
+    border: 2px solid #298EA6;
+    border-radius: 10px;
+  }
+
+  #formularioTelefone {
+    border: 2px solid #298EA6;
+    border-radius: 10px;
+  }
+
+  #formularioEmail {
+    border: 2px solid #298EA6;
+    border-radius: 10px;
+  }
+
+  #formularioSenha {
+    border: 2px solid #298EA6;
+    border-radius: 10px;
+  }
+
+
+
+
+ /* RESPONSIVIDADE */
+
+@media (min-width: 767px) {
+    #robotdesktop {
+        width: 50%;
+        height: auto; /* Auto para manter a proporção */
+        display: block;
+        margin-left: auto; /* Alinha a imagem à direita */
+        margin-right: 0; /* Garante que não há margem à direita */
+        margin-top: 50px; /* Adiciona espaço acima da imagem */
+    }
+}
+
+@media (max-width: 767px) {
+    #robotdesktop {
+        display: none;
+    }
+}
+
+@media (min-width: 767px) {
+    #robotmobile {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #robotmobile {
+        width: 50%;
+        height: auto; /* Auto para manter a proporção */
+        display: block;
+        margin-left: 100px; /* Alinha a imagem à direita */
+    }
+}
+
+@media (min-width: 767px) {
+    #logomobile {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #logomobile {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    #login img {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    h5 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 767px) {
+    #container-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #textosdesktop {
+        display: none;
+    }
+}
+
+@media (min-width: 767px) {
+    .form-signin {
+        width: 50%;
+        overflow: hidden;
+   }
+}
+
+@media (max-width: 767px) {
+    footer {
+        display: none; 
+    }
+}
+
+@media (max-width: 695px) {
+    footer {
+        display: inline;
+    }
+}
+
