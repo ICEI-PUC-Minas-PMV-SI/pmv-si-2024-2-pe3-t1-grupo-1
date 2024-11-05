@@ -1,7 +1,6 @@
 # 4. PROJETO DO DESIGN DE INTERAÇÃO
 
 ## 4.1 Personas
-Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar uma persona por integrante do projeto. Sugere-se a utilização do gerador de personas disponibilizado ao final da página https://www.rdstation.com/blog/marketing/persona-o-que-e/.
 
 ![image](https://github.com/user-attachments/assets/5c2d8ed9-61e5-4011-b469-36b4f26a388c)
 
@@ -12,6 +11,8 @@ Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar
 ![personaThomas](https://github.com/user-attachments/assets/09a3a244-14f4-4763-b1c8-639b4583c069)
 
 ![personaThiago](https://github.com/user-attachments/assets/576bd029-5019-4bbb-a371-58e0e2aac8ce)
+
+![personaGabriela](https://github.com/user-attachments/assets/20be6d52-1a5b-42f2-90a4-10f6d1be2c76)
 
 ## 4.2 Mapa de Empatia
 Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A partir do mapa da empatia é possível detalhar a personalidade do cliente e compreendê-la melhor. O objetivo é obter um nível mais profundo de compreensão de uma persona. A seguir um exemplo de template que pode ser usado para o mapa de empatia. Para cada persona deverá ser apresentado o seu respectivo mapa de empatia. Sugere-se a utilização do template apresentado em https://www.rdstation.com/blog/marketing/mapa-da-empatia/.
