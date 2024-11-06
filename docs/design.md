@@ -31,3 +31,25 @@
 ## 4.3 Protótipos das Interfaces
 Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A fidelidade do protótipo refere-se ao nível de detalhes e funcionalidades incorporadas a ele. Assim, um protótipo de alta fidelidade é uma representação interativa do produto, baseada no computador ou em dispositivos móveis. Esse protótipo já apresenta maior semelhança com o design final em termos de detalhes e funcionalidades. No desenvolvimento dos protótipos, devem ser considerados os princípios gestálticos, as recomendações ergonômicas e as regras de design (como as 8 regras de ouro). É importante descrever no texto do relatório como os princípios gestálticos e as regras de ouro foram seguidas no projeto das interfaces. Nesta etapa deve-se dar uma ênfase na implementação do software de modo que possam ser realizados os testes com usuários na etapa seguinte.
 
+### 4.3.1 Tela de Login
+Interface utilizada pelo usuário para acessar a aplicação web. 
+
+![login - protótipo exemplo](https://github.com/user-attachments/assets/d4f70148-549f-4a64-afb9-0ec5c84a60a3)
+
+### 4.3.2 Tela de Criar Conta
+Interface utilizada pelo usuário para criar uma nova conta.
+
+![Criar conta - Prototipo](https://github.com/user-attachments/assets/a480b642-2860-4a1f-a61d-f03aca922ebd)
+
+### 4.3.3 Telas de Esqueceu sua Senha
+Interface utilizada pelo usuário para recuperar senha.
+
+![Esqueceu senha - prototipo](https://github.com/user-attachments/assets/7722f8bf-66b5-46bb-b5af-5b7bce72cff8)
+
+Mensagem de feedback emitida após o envio do e-mail com êxito.
+
+![envio email para recuperar senha - Prototipo](https://github.com/user-attachments/assets/f0f2d6da-af51-424f-b8d4-3f76498c7ba4)
+
+Interface utilizada pelo usuário para alterar senha.
+
+![Alterar senha - Prototipo](https://github.com/user-attachments/assets/1ee21c57-eced-434f-8400-b1363b356d2a)
