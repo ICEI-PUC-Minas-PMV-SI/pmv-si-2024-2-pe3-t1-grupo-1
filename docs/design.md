@@ -41,15 +41,17 @@ Interface utilizada pelo usuário para criar uma nova conta.
 
 ![Criar conta - Prototipo](https://github.com/user-attachments/assets/a480b642-2860-4a1f-a61d-f03aca922ebd)
 
-### 4.3.3 Telas de Esqueceu sua Senha
+### 4.3.3 Tela de Esqueceu sua Senha
 Interface utilizada pelo usuário para recuperar senha.
 
 ![Esqueceu senha - prototipo](https://github.com/user-attachments/assets/7722f8bf-66b5-46bb-b5af-5b7bce72cff8)
 
+### 4.3.4 Tela de Feedback 
 Mensagem de feedback emitida após o envio do e-mail com êxito.
 
 ![envio email para recuperar senha - Prototipo](https://github.com/user-attachments/assets/f0f2d6da-af51-424f-b8d4-3f76498c7ba4)
 
+### 4.3.5 Tela de Alterar Senha
 Interface utilizada pelo usuário para alterar senha.
 
 ![Alterar senha - Prototipo](https://github.com/user-attachments/assets/1ee21c57-eced-434f-8400-b1363b356d2a)
