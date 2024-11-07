@@ -140,5 +140,6 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
   - Utilização dos ícones no menu lateral por mapeamento direto (o ícone representa exatamente aquilo que irá fazer).
   - Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
 
-![Comunidades - protótipo](https://github.com/user-attachments/assets/e76f7e9b-6551-4c90-b4fd-5d1fc389fbac)
+![Comunidades - protótipo](https://github.com/user-attachments/assets/82fde190-8824-46c3-9225-6f8ec75ed5db)
+
 
