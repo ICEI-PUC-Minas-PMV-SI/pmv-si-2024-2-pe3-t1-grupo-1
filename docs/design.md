@@ -33,6 +33,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ### 4.3.1 Tela de Login
 > Interface utilizada pelo usuário para acessar a aplicação web. 
+
 **Princípios Gestálticos:**
   - Proximidade entre os campos de e-mail e senha.
   - Alinhamento dos campos para melhor organização visual.
