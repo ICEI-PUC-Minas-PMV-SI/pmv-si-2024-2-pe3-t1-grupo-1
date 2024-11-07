@@ -32,7 +32,24 @@
 Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A fidelidade do protótipo refere-se ao nível de detalhes e funcionalidades incorporadas a ele. Assim, um protótipo de alta fidelidade é uma representação interativa do produto, baseada no computador ou em dispositivos móveis. Esse protótipo já apresenta maior semelhança com o design final em termos de detalhes e funcionalidades. No desenvolvimento dos protótipos, devem ser considerados os princípios gestálticos, as recomendações ergonômicas e as regras de design (como as 8 regras de ouro). É importante descrever no texto do relatório como os princípios gestálticos e as regras de ouro foram seguidas no projeto das interfaces. Nesta etapa deve-se dar uma ênfase na implementação do software de modo que possam ser realizados os testes com usuários na etapa seguinte.
 
 ### 4.3.1 Tela de Login
-Interface utilizada pelo usuário para acessar a aplicação web. 
+> Interface utilizada pelo usuário para acessar a aplicação web. 
+**Princípios Gestálticos:**
+  - Proximidade entre os campos de e-mail e senha.
+  - Alinhamento dos campos para melhor organização visual.
+  - Botão centralizado, facilitando o acesso.
+  - Título e subtítulo alinhados com os links, criando uma estrutura organizada.
+  - Tela simétrica, proporcionando uma experiência visual agradável.
+ 
+  **Regras de Ouro:**
+  - Consistência nos elementos, com o uso dos mesmos ícones das outras páginas para representar e-mail e senha.
+  - Padronização das cores dos botões principais.
+  - Redução de elementos na tela para torná-la mais simples e de fácil compreensão.
+  - Exibição de mensagens de feedback quando algo incorreto é inserido nos campos.
+ 
+  **Boas Práticas Ergonômicas:**
+  - Mensagens de erro não são agressivas e não utilizam caixa alta, proporcionando uma comunicação mais amigável.
+  - Ícones escolhidos por convenção, alinhados com o padrão de outros sites.
+  - Títulos respeitam o limite de 60 caracteres e utilizam fonte sem serifa para melhor legibilidade.
 
 ![login - protótipo exemplo](https://github.com/user-attachments/assets/d4f70148-549f-4a64-afb9-0ec5c84a60a3)
 
