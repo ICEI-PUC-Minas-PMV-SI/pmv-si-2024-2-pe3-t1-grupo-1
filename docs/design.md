@@ -37,8 +37,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 **Princípios Gestálticos:**
   - Proximidade entre os campos de e-mail e senha.
   - Alinhamento dos campos para melhor organização visual.
-  - Botão centralizado, facilitando o acesso.
-  - Título e subtítulo alinhados com os links, criando uma estrutura organizada.
+  - Título e subtítulo alinhados com os links.
   - Tela simétrica, proporcionando uma experiência visual agradável.
  
   **Regras de Ouro:**
@@ -47,29 +46,80 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
   - Redução de elementos na tela para torná-la mais simples e de fácil compreensão.
   - Exibição de mensagens de feedback quando algo incorreto é inserido nos campos.
  
-  **Boas Práticas Ergonômicas:**
-  - Mensagens de erro não são agressivas e não utilizam caixa alta, proporcionando uma comunicação mais amigável.
+  **Recomendações Ergonômicas:**
+  - Mensagens de erro não são agressivas e não utilizam caixa alta, proporcionando uma comunicação mais amigável com o usuário.
   - Ícones escolhidos por convenção, alinhados com o padrão de outros sites.
   - Títulos respeitam o limite de 60 caracteres e utilizam fonte sem serifa para melhor legibilidade.
 
 ![login - protótipo exemplo](https://github.com/user-attachments/assets/d4f70148-549f-4a64-afb9-0ec5c84a60a3)
 
 ### 4.3.2 Tela de Criar Conta
-Interface utilizada pelo usuário para criar uma nova conta.
+> Interface utilizada pelo usuário para criar uma nova conta.
+
+ **Princípios Gestálticos:**
+  - Alinhamento de todos os elementos da página (campos, textos dentro dos campos, ícones, botões, etc.).
+  - Simetria dos elementos visuais da página.
+  - Proximidade entre elementos relacionados, como campos, botões e títulos, para melhorar a compreensão.
+ 
+ **Regras de Ouro:**
+  - Fornecimento de feedback ao usuário quando uma informação incorreta é inserida.
+  - Consistência nos nomes dos campos, ícones e nas cores dos botões para facilitar a compreensão do usuário.
+  - Controle do usuário com a opção de "voltar" caso ele decida não criar uma nova conta.
+ 
+ **Recomendações Ergonômicas:**
+  - O formulário fornece indicações sobre o status das informações inseridas (incorreta, correta ou faltando) para facilitar o preenchimento do cadastro.
 
 ![Criar conta - Prototipo](https://github.com/user-attachments/assets/a480b642-2860-4a1f-a61d-f03aca922ebd)
 
 ### 4.3.3 Tela de Esqueceu sua Senha
-Interface utilizada pelo usuário para recuperar senha.
+> Interface utilizada pelo usuário para recuperar senha.
+
+  **Princípios Gestálticos:**
+  - Alinhamento dos elementos da tela, com os campos posicionados à direita e a imagem à esquerda.
+  - Proximidade entre os elementos relacionados, como os títulos, campo de e-mail e o botão "enviar", para melhorar a clareza e a usabilidade.
+ 
+  **Regras de Ouro:**
+  - Consistência no formato do campo de e-mail, mantendo o mesmo design, ícone e estilo do botão "enviar" das páginas anteriores.
+  - Exibição de mensagem de feedback ao usuário quando o e-mail é encaminhado com sucesso.
+  - Controle do usuário para reenviar o e-mail caso o envio inicial não tenha sido concluído.
+ 
+  **Recomendações Ergonômicas:**
+  - Títulos com menos de 60 caracteres e sem o uso de fontes com serifa para facilitar a leitura.
+  - Mensagem de feedback com tom amigável, sem uso de caixa alta ou expressões agressivas.
 
 ![Esqueceu senha - prototipo](https://github.com/user-attachments/assets/7722f8bf-66b5-46bb-b5af-5b7bce72cff8)
 
 ### 4.3.4 Tela de Feedback 
-Mensagem de feedback emitida após o envio do e-mail com êxito.
+> Mensagem de feedback emitida após o envio do e-mail com êxito.
+
+ **Princípios Gestálticos:**
+  - Alinhamento dos elementos da tela.
+  - Proximidade entre os elementos relacionados para melhorar a clareza e a usabilidade do usuário na compreensão da mensagem.
+ 
+ **Regras de Ouro:**
+  - Exibição de mensagem de feedback ao usuário quando o e-mail é encaminhado com sucesso.
+  - Controle do usuário para reenviar o e-mail caso o envio inicial não tenha sido concluído.
+ 
+ **Recomendações Ergonômicas:**
+  - Títulos com menos de 60 caracteres e sem o uso de fontes com serifa para facilitar a leitura.
+  - Mensagem de feedback com tom amigável, sem uso de caixa alta ou expressões agressivas.
 
 ![envio email para recuperar senha - Prototipo](https://github.com/user-attachments/assets/f0f2d6da-af51-424f-b8d4-3f76498c7ba4)
 
 ### 4.3.5 Tela de Alterar Senha
-Interface utilizada pelo usuário para alterar senha.
-
+> Interface utilizada pelo usuário para alterar senha.
+ 
+  **Regras de Ouro:**
+  - Consistência nos elementos da página, mantendo o formato dos campos, ícones e botões igual ao das páginas anteriores.
+  - Indicação clara de que a senha foi alterada, sinalizando ao usuário a finalização da interação.
+ 
+  **Princípios Gestálticos:**
+  - Alinhamento dos elementos à esquerda, com a imagem posicionada à direita.
+  - Proximidade entre elementos relacionados.
+  - Simetria visual na página.
+ 
+ **Boas Práticas Ergonômicas:**
+  - Utilização de ícones convencionais, alinhados com o conhecimento do usuário.
+  - Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
+ 
 ![Alterar senha - Prototipo](https://github.com/user-attachments/assets/1ee21c57-eced-434f-8400-b1363b356d2a)
