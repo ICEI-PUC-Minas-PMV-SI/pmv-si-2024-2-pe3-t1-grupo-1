@@ -118,7 +118,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
   - Proximidade entre elementos relacionados.
   - Simetria visual na página.
  
- **Boas Práticas Ergonômicas:**
+ **Recomendações Ergonômicas:**
   - Utilização de ícones convencionais, alinhados com o conhecimento do usuário.
   - Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
  
