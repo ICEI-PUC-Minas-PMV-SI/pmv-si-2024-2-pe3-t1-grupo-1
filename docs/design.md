@@ -108,18 +108,37 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ### 4.3.5 Tela de Alterar Senha
 > Interface utilizada pelo usuário para alterar senha.
+
+ **Princípios Gestálticos:**
+  - Alinhamento dos elementos à esquerda, com a imagem posicionada à direita.
+  - Proximidade entre elementos relacionados.
+  - Simetria visual na página.
  
   **Regras de Ouro:**
   - Consistência nos elementos da página, mantendo o formato dos campos, ícones e botões igual ao das páginas anteriores.
   - Indicação clara de que a senha foi alterada, sinalizando ao usuário a finalização da interação.
- 
-  **Princípios Gestálticos:**
-  - Alinhamento dos elementos à esquerda, com a imagem posicionada à direita.
-  - Proximidade entre elementos relacionados.
-  - Simetria visual na página.
  
  **Recomendações Ergonômicas:**
   - Utilização de ícones convencionais, alinhados com o conhecimento do usuário.
   - Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
  
 ![Alterar senha - Prototipo](https://github.com/user-attachments/assets/1ee21c57-eced-434f-8400-b1363b356d2a)
+
+### 4.3.6 Tela de Comunidades
+> Interface utilizada pelo usuário para visualizar as comunidades disponíveis criadas por outros usuários.
+
+ **Princípios Gestálticos:**
+  - Alinhamento dos elementos ao centro, com a mesma largura e margem de distância.
+  - Proximidade entre elementos relacionados, como por exemplo nos cartões de conteúdos que representam as comunidades criadas.
+  - Simetria visual na página sendo respeitada.
+    
+  **Regras de Ouro:**
+  - Consistência nos elementos da página, mantendo o mesmo formato para todos os cartões de conteúdo.
+  - Menu lateral simples e intuitivo, permite que o usuário navegue entre as páginas disponíveis e esteja no controle.
+ 
+ **Recomendações Ergonômicas:**
+  - Utilização dos ícones no menu lateral por mapeamento direto (o ícone representa exatamente aquilo que irá fazer).
+  - Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
+
+![Comunidades - protótipo](https://github.com/user-attachments/assets/e76f7e9b-6551-4c90-b4fd-5d1fc389fbac)
+
