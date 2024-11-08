@@ -142,4 +142,36 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![Comunidades - protótipo](https://github.com/user-attachments/assets/82fde190-8824-46c3-9225-6f8ec75ed5db)
 
+### 4.3.7 Tela de Criar Novas Comunidades
+> Interface utilizada pelo usuário para criar novas comunidades.
+
+ **Princípios Gestálticos:**
+  - Alinhamento dos elementos que compõe a página, como por exemplo dos campos que possuem conteúdos e títulos.
+  - Simetria visual na página pode ser observada quando a página é dividida em partes.
+    
+  **Regras de Ouro:**
+  - Controle do usuário para retornar à página inicial caso desista de criar uma nova comunidade.
+  - Consistência nas fontes dos campos e títulos utilizados, cores, bordas e botões utilizados.
+  - Fornecimento de feedback ao usuário quando uma informação não for preenchida.
+ 
+ **Recomendações Ergonômicas:**
+  - Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
+  - Utilização de ícones convencionais, alinhados com o conhecimento do usuário.
+
+![Criar comunidade](https://github.com/user-attachments/assets/d1f0059a-9a65-478c-8de7-2605854f7b08)
+
+### 4.3.8 Tela de Participar de Comunidades
+> Interface utilizada pelo usuário para interagir dentro das comunidades.
+
+ **Princípios Gestálticos:**
+  - Alinhamento dos elementos que compõe a página, como por exemplo da foto do usuário, nome, descrição da publicação e ícones para curtir, comentar e compartilhar.
+  - Proximidade dos ícones que representam as ações de curtir, comentar e compartilhar. Além disso, percebe-se também para os componentes textuais.
+    
+  **Regras de Ouro:**
+  - Controle do usuário para retornar à página inicial das comunidades.
+  - Consistência nas fontes dos elementos textuais (cores, peso etc), botão de "voltar" utilizado em outras páginas etc.
+ 
+ **Recomendações Ergonômicas:**
+  - Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
+  - Utilização de ícones convencionais, alinhados com o conhecimento do usuário (curtir, comentar e compartilhar).
 
