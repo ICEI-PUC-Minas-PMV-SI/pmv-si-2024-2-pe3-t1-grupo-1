@@ -175,3 +175,65 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
   - Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
   - Utilização de ícones convencionais, alinhados com o conhecimento do usuário (curtir, comentar e compartilhar).
 
+![Tela de Participar - Exemplo](https://github.com/user-attachments/assets/76861a25-5f77-4167-b36b-03b26352746f)
+
+### 4.3.9 Tela de Atividades Físicas
+> Interface utilizada pelo usuário para visualizar as atividades físicas registradas.
+
+ **Princípios Gestálticos:**
+  - Alinhamento entre os elementos da página, como por exemplo os botões de filtro e adicionar, colunas da tabela, ícones de editar e excluir etc.
+  - Proximidade entre os elementos que estão relacionados entrei si. como por exemplo os filtros que podem ser utilizados para filtrar as informações da tabela.
+  - Página simétrica.
+    
+  **Regras de Ouro:**
+  - Consistência observada no formato dos filtros utilizados, títulos, botão "Adicionar" e cores.
+  - A página possui carga de memória de trabalho baixa, sendo simples e intuitiva de ser utilizada.
+ 
+ **Recomendações Ergonômicas:**
+  - Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
+  - Utilização de ícones convencionais, alinhados com o conhecimento do usuário (editar e excluir).
+
+![Atividades físicas - Visualização](https://github.com/user-attachments/assets/b5f8572c-2697-4050-a3ae-fcebd5650bbb)
+
+### 4.3.10 Tela de Criar Atividade Física
+> Interface utilizada pelo usuário para criar novas atividades físicas.
+
+ **Princípios Gestálticos:**
+  - Alinhamento entre os campos da página, elementos internos (ícones, textos, radio buttons).
+  - Utilização de margens nos campos para delimitar as informações que estão relacionadas entre si.
+  - Página simétrica.
+    
+  **Regras de Ouro:**
+  - Consistência no formato dos campos, cores, fontes e pesos, ícones etc.
+  - A página possui carga de memória de trabalho baixa, sendo simples e intuitiva de ser utilizada.
+  - Controle do usuário para retornar à página de visualização das atividades físicas.
+  - Mensagens de feedback caso uma informação inválida seja inserida nos campos de nome e duração.
+ 
+ **Recomendações Ergonômicas:**
+  - Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
+  - Utilização de ícones convencionais, alinhados com o conhecimento do usuário.
+  - As mensagens de feedback possuem um tom amigável, não agressivo e orientam o usuário a solucionar os problemas.
+
+![Criar atividade fisica](https://github.com/user-attachments/assets/7519f5f9-dd69-44a2-8c2d-6cb7807cc756)
+
+### 4.3.11 Tela de Alterar Atividade Física
+> Interface utilizada pelo usuário para alterar as atividades físicas registradas.
+
+ **Princípios Gestálticos:**
+  - Alinhamento entre os campos da página, elementos internos (ícones, textos, radio buttons).
+  - Utilização de margens nos campos para delimitar as informações que estão relacionadas entre si.
+  - Página simétrica.
+    
+  **Regras de Ouro:**
+  - Consistência no formato dos campos, cores, fontes e pesos, ícones etc.
+  - A página possui carga de memória de trabalho baixa, sendo simples e intuitiva de ser utilizada.
+  - Controle do usuário para retornar à página de visualização das atividades físicas.
+  - Mensagens de feedback caso uma informação inválida seja inserida nos campos de nome e duração.
+ 
+ **Recomendações Ergonômicas:**
+  - Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
+  - Utilização de ícones convencionais, alinhados com o conhecimento do usuário.
+  - As mensagens de feedback possuem um tom amigável, não agressivo e orientam o usuário a solucionar os problemas.
+  - Formulário indica quando os campos estão desabilitados para edição [cor cinza] e quando são selecionados, habilitam para edição [cor padrão pode ser visualizada na tela anterior].
+
+![Alterar atividade fisica](https://github.com/user-attachments/assets/2cbb3bc5-ba17-4432-934e-a9054d306e27)
