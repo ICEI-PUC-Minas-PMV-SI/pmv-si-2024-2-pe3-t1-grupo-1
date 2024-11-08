@@ -237,3 +237,21 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
   - Formulário indica quando os campos estão desabilitados para edição [cor cinza] e quando são selecionados, habilitam para edição [cor padrão pode ser visualizada na tela anterior].
 
 ![Alterar atividade fisica](https://github.com/user-attachments/assets/2cbb3bc5-ba17-4432-934e-a9054d306e27)
+
+### 4.3.12 Tela de Excluir tividade Física
+> Interface utilizada pelo usuário para excluir as atividades físicas registradas.
+
+ **Princípios Gestálticos:**
+  - Alinhamento das informações da tela, como por exemplo os botões e textos centralizados.
+  - Proximidadade entre os conteúdos textuais, facilitando a visualização das informações.
+  - Tela simétrica, onde as partes relacionam-se entre si.
+    
+  **Regras de Ouro:**
+  - Consistência nas cores utilizadas, fontes e pesos.
+  - Controle do usuário para retornar à página de visualização das atividades físicas.
+ 
+ **Recomendações Ergonômicas:**
+  - Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
+
+![Excluir atividade fisica](https://github.com/user-attachments/assets/cd1128bd-c18f-477e-9465-b2917ca2e71b)
+
