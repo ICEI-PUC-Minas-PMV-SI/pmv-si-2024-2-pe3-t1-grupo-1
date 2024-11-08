@@ -255,3 +255,20 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![Excluir atividade fisica](https://github.com/user-attachments/assets/cd1128bd-c18f-477e-9465-b2917ca2e71b)
 
+### 4.3.13 Tela de Ajuda
+> Interface utilizada pelo usuário para encontrar artigos de ajuda disponíveis, separados por tópicos.
+
+ **Princípios Gestálticos:**
+  - Alinhamento das informações da tela, mantendo as proporções adequadas entre os cartões de tópicos de ajuda e seus conteúdos textuais internos.
+  - Proximidadade entre os cartões de tópicos, facilitando a visualização das informações.
+  - Tela simétrica, onde as partes relacionam-se entre si.
+    
+  **Regras de Ouro:**
+  - Consistência nos elementos utilizados, cores, fontes e design dos cartões.
+  - A tela possui um design limpo e simples de ser compreendido pelo usuário.
+ 
+ **Recomendações Ergonômicas:**
+  - Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
+  - Utilização de ícones alinhados com o conhecimento do usuário.
+
+![Página - Ajuda](https://github.com/user-attachments/assets/d5de6a83-23dd-4e48-bee5-9bb98c81eac6)
