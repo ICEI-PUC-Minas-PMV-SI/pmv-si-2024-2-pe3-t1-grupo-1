@@ -260,7 +260,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
  **Princípios Gestálticos:**
   - Alinhamento das informações da tela, mantendo as proporções adequadas entre os cartões de tópicos de ajuda e seus conteúdos textuais internos.
-  - Proximidadade entre os cartões de tópicos, facilitando a visualização das informações.
+  - Proximidade entre os cartões de tópicos, facilitando a visualização das informações.
   - Tela simétrica, onde as partes relacionam-se entre si.
     
   **Regras de Ouro:**
@@ -272,3 +272,23 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
   - Utilização de ícones alinhados com o conhecimento do usuário.
 
 ![Página - Ajuda](https://github.com/user-attachments/assets/d5de6a83-23dd-4e48-bee5-9bb98c81eac6)
+
+### 4.3.14 Tela de Gerenciamento de Humor
+> Interface utilizada pelo usuário para gerenciar o humor.
+
+**Princípios Gestálticos:**
+  - Alinhamento entre os campos da página e elementos internos (ícones e textos).
+  - Similaridade nos objetos utilizados, permitindo o reconhecimento de grupos.
+  - Página simétrica.
+    
+  **Regras de Ouro:**
+  - Consistência no formato dos campos, cores, fontes e pesos, ícones etc.
+  - A página possui carga de memória de trabalho baixa, sendo simples e intuitiva de ser utilizada.
+ 
+ **Recomendações Ergonômicas:**
+  - Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
+  - Utilização de ícones convencionais, alinhados com o conhecimento do usuário.
+
+![Gerenciamento de humor@2x](https://github.com/user-attachments/assets/0cf74308-25b5-4bf5-9a83-887cdbbad173)
+
+
