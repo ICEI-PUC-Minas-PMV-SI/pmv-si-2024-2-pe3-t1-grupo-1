@@ -289,6 +289,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
   - Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
   - Utilização de ícones convencionais, alinhados com o conhecimento do usuário.
 
-![Gerenciamento de humor@2x](https://github.com/user-attachments/assets/0cf74308-25b5-4bf5-9a83-887cdbbad173)
+![Gerenciamento de humor@2x](https://github.com/user-attachments/assets/54496327-9f5e-45b7-9920-cd108d0e4e01)
+
 
 
