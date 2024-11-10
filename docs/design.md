@@ -71,7 +71,7 @@
   - Ícones escolhidos por convenção, alinhados com o padrão de outros sites.
   - Títulos respeitam o limite de 60 caracteres e utilizam fonte sem serifa para melhor legibilidade.
 
-![login - protótipo exemplo](https://github.com/user-attachments/assets/d4f70148-549f-4a64-afb9-0ec5c84a60a3)
+![Group 481523](https://github.com/user-attachments/assets/3fa5455a-7769-4028-ad36-05d5af384aab)
 
 ### 4.3.3 Tela de Criar Conta
 > Interface utilizada pelo usuário para criar uma nova conta.
@@ -89,7 +89,7 @@
  **Recomendações Ergonômicas:**
   - O formulário fornece indicações sobre o status das informações inseridas (incorreta, correta ou faltando) para facilitar o preenchimento do cadastro.
 
-![Criar conta - Prototipo](https://github.com/user-attachments/assets/a480b642-2860-4a1f-a61d-f03aca922ebd)
+![Criar conta - Prototipo (1)](https://github.com/user-attachments/assets/3b002d41-77fd-4b10-a115-a7c481caebc4)
 
 ### 4.3.4 Tela de Esqueceu sua Senha
 > Interface utilizada pelo usuário para recuperar senha.
@@ -293,12 +293,12 @@
 
 ![Página - Ajuda](https://github.com/user-attachments/assets/d5de6a83-23dd-4e48-bee5-9bb98c81eac6)
 
-### 4.3.15 Tela de Gerenciamento de Humor
+### 4.3.15 Tela de Humor
 > Interface utilizada pelo usuário para gerenciar o humor.
 
 **Princípios Gestálticos:**
-  - Alinhamento entre os campos da página e elementos internos (ícones e textos).
-  - Similaridade nos objetos utilizados, permitindo o reconhecimento de grupos.
+  - Alinhamento entre os elementos da página, como por exemplo os campos de entrada de dados, ícones e textos.
+  - Margem utilizada nos campos para delimitar o espaço.
   - Página simétrica.
     
   **Regras de Ouro:**
@@ -309,7 +309,7 @@
   - Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
   - Utilização de ícones convencionais, alinhados com o conhecimento do usuário.
 
-![Gerenciamento de humor@2x](https://github.com/user-attachments/assets/54496327-9f5e-45b7-9920-cd108d0e4e01)
+![Group 481524](https://github.com/user-attachments/assets/00d3747e-d336-453a-8838-d48c6bb8dbe1)
 
 ### 4.3.16 Tela de Gerenciamento de Sono
 > Interface utilizada pelo usuário para gerenciar o sono.
@@ -327,7 +327,7 @@
   - Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
   - Utilização de ícones convencionais, alinhados com o conhecimento do usuário.
 
-![Gerenciamento de sono](https://github.com/user-attachments/assets/6577e328-a839-4a54-9096-9801f297427e)
+![Group 481532](https://github.com/user-attachments/assets/7409003b-21e9-43cd-896c-c794d81871c3)
 
 ### 4.3.17 Tela de Gerenciamento de Alimentação
 >Interface utilizada pelo usuário visualize alimentos e refeições registradas.
