@@ -309,7 +309,7 @@
   - Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
   - Utilização de ícones convencionais, alinhados com o conhecimento do usuário.
 
-![Group 481534](https://github.com/user-attachments/assets/6d78ef97-5b63-43a1-af17-fcb9e95919f2)
+![Group 481536](https://github.com/user-attachments/assets/7aad4762-da55-4668-9935-41e516e7065b)
 
 ### 4.3.16 Tela de Gerenciamento de Sono
 > Interface utilizada pelo usuário para gerenciar o sono.
@@ -329,8 +329,8 @@
 
 ![Group 481532](https://github.com/user-attachments/assets/7409003b-21e9-43cd-896c-c794d81871c3)
 
-### 4.3.17 Tela de Gerenciamento de Alimentação
->Interface utilizada pelo usuário visualize alimentos e refeições registradas.
+### 4.3.17 Tela de Alimentação
+>Interface utilizada pelo usuário para visualizar os alimentos e refeições registrados.
 
 **Princípios Gestálticos:**
 -	Alinhamento entre os elementos da página, como por exemplo, os campos de filtro e botão adicionar, colunas e linhas da tabela, ícones para edição e exclusão.
@@ -344,14 +344,13 @@
 -	Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
 -	Utilização de ícones convencionais, alinhados com o conhecimento do usuário (editar e excluir).
 
-![image](https://github.com/user-attachments/assets/516f11f6-4a9c-4bc3-87a8-20fd07e4d343)
+![Página - Gerenciar Alimentação](https://github.com/user-attachments/assets/5b761243-19cb-4ba7-abca-4f1084545704)
 
 ### 4.3.18 Tela de Adicionar Refeição
->Interface utilizada pelo usuário adicione os alimentos consumidos.
+>Interface utilizada pelo usuário para adicionar os alimentos consumidos.
 
 **Princípios Gestálticos:**
 -	Simetria dos campos da página.
--	Consistência dos ícones, nomes dos campos, cores de botões, facilitando a compreensão do usuário.
 -	Delimitação dos campos por margens, organizando informações relacionadas.
   
 **Regras de Ouro:**
@@ -370,7 +369,6 @@
 
 **Princípios Gestálticos:**
 -	Simetria dos campos da página.
--	Consistência dos ícones, nomes dos campos, cores de botões, facilitando a compreensão do usuário.
 -	Delimitação dos campos por margens, organizando informações relacionadas.
   
 **Regras de Ouro:**
@@ -382,24 +380,23 @@
 -	Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
 -	Utilização de ícones convencionais, alinhados com o conhecimento do usuário (editar e excluir).
 
-![image](https://github.com/user-attachments/assets/13b61c50-f686-4e7d-b5ee-a8f398a5fbce)
+![Group 481539](https://github.com/user-attachments/assets/f700dc14-8f7d-423d-986a-d73cf4e552c6)
 
 ### 4.3.20 Tela de Excluir Refeição
 >Interface utilizada pelo usuário excluir alimentos ou refeições registradas.
 
 **Princípios Gestálticos:**
--	Simetria dos campos da página.
--	Consistência dos ícones, nomes dos campos, cores de botões, facilitando a compreensão do usuário.
--	Delimitação dos campos por margens, organizando informações relacionadas.
+-	Simetria dos elementos da página.
+- Alinhamento dos elementos da tela, mantendo centralizados.
   
 **Regras de Ouro:**
--	Consistência dos ícones, nomes dos campos, cores de botões, facilitando a compreensão do usuário.
+-	Consistência nas cores de botões e elementos textuais (fontes, cores, peso), facilitando a compreensão do usuário.
 -	Controle do usuário para retornar a página anterior quando desejar. 
   
 **Recomendações Ergonômicas:**
 -	Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
 
-![image](https://github.com/user-attachments/assets/99025955-0999-49ad-b2c5-a44f3107b5b2)
+![Group 481539](https://github.com/user-attachments/assets/adc57340-153f-40a5-b33b-1823b0613b5b)
 
 ### 4.3.20 Tela de Conteúdos Educacionais
 >Interface utilizada pelo usuário não logado para interagir com os conteúdos educacionais disponíveis.
