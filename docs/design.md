@@ -396,7 +396,7 @@
 **Recomendações Ergonômicas:**
 -	Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
 
-![Group 481539](https://github.com/user-attachments/assets/adc57340-153f-40a5-b33b-1823b0613b5b)
+<img width="474" alt="Exclusão alimento" src="https://github.com/user-attachments/assets/3a9d4dcd-d890-440b-8350-a5031f21565a">
 
 ### 4.3.20 Tela de Conteúdos Educacionais
 >Interface utilizada pelo usuário não logado para interagir com os conteúdos educacionais disponíveis.
