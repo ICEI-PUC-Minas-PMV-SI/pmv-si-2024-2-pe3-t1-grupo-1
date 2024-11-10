@@ -403,11 +403,19 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![image](https://github.com/user-attachments/assets/99025955-0999-49ad-b2c5-a44f3107b5b2)
 
+### 4.3.20 Tela de Conteúdos Educacionais
+>Interface utilizada pelo usuário não logado para interagir com os conteúdos educacionais disponíveis.
 
+**Princípios Gestálticos:**
+- Alinhamento entre os cartões de conteúdos educacionais da página.
+- Proximidade entre os cartões de conteúdo que estão relacionados entre si, como por exemplo conteúdos de alimentação e atividades físicas.
+- A página desenvolvida respeita o princípio da simetria.
+  
+**Regras de Ouro:**
+-	Consistência das cores utilizadas para os cartões, fontes e elementos de categorização identificados com a cor azul claro.
+- A página possui carga de memória de trabalho baixa, sendo simples e intuitiva de ser utilizada.
+  
+**Recomendações Ergonômicas:**
+-	Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
 
-
-
-
- 
-
-
+![Conteúdos educacionais](https://github.com/user-attachments/assets/fc94761d-7c8a-4eae-83d7-2b9d066d74d2)
