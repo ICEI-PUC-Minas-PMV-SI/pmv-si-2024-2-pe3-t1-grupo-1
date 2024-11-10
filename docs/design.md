@@ -34,9 +34,8 @@
 > Interface inicial da página "Saúde e Equilíbrio" com a apresentação da proposta (usuário não logado) e resumo de informações (para usuários logados).
 
 **Princípios Gestálticos:**
-  - Alinhamento dos campos para melhor organização visual.
+  - Alinhamento dos cartões de apresentação para melhor organização visual.
   - Simetria da página, agradável visualmente para o usuário.
-  - Utilização de ícones convencionais, alinhados com o conhecimento do usuário para exemplificar tópicos como alimentação, atividade física, etc.
   
  **Regras de Ouro:**
   - Consistência nos elementos da página, mantendo o formato dos campos, ícones conforme exibidos nas demais páginas.
@@ -47,10 +46,10 @@
   - Textos, como título e subtítulo, sem uso de fontes com serifa.
 
 **Usuário não logado:**
-![image](https://github.com/user-attachments/assets/cf9a3342-6244-444d-b1a8-567c04259ae2)
+![Página inicial 01](https://github.com/user-attachments/assets/3a2437c8-d625-44f7-be1c-f08689eb556b)
 
 **Usuário logado:**
-![image](https://github.com/user-attachments/assets/f1bc244f-9113-4282-824b-37571de35200)
+![Página inicial - usuario logado](https://github.com/user-attachments/assets/3fd74bc3-7ecb-4df9-b329-b6e1460240cc)
     
 ### 4.3.2 Tela de Login
 > Interface utilizada pelo usuário para acessar a aplicação web. 
