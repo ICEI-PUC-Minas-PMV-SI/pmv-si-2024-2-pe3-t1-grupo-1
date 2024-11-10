@@ -309,5 +309,83 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![Gerenciamento de sono](https://github.com/user-attachments/assets/6577e328-a839-4a54-9096-9801f297427e)
 
+### 4.3.16 Tela de Gerenciamento de Alimentação
+>Interface utilizada pelo usuário visualize alimentos e refeições registradas.
+
+**Princípios Gestálticos:**
+-	Alinhamento entre os elementos da página, como por exemplo, os campos de filtro e botão adicionar, colunas e linhas da tabela, ícones para edição e exclusão.
+-	Simetria da página, agradável visualmente para o usuário.
+  
+**Regras de Ouro:**
+-	Consistência dos ícones, nomes dos campos, cores de botões, facilitando a compreensão do usuário.
+-	A página possui carga de memória de trabalho baixa, sendo simples e intuitiva de ser utilizada.
+  
+**Recomendações Ergonômicas:**
+-	Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
+-	Utilização de ícones convencionais, alinhados com o conhecimento do usuário (editar e excluir).
+
+![image](https://github.com/user-attachments/assets/516f11f6-4a9c-4bc3-87a8-20fd07e4d343)
+
+### 4.3.17 Tela de Adicionar Refeição
+>Interface utilizada pelo usuário adicione os alimentos consumidos.
+
+**Princípios Gestálticos:**
+-	Simetria dos campos da página.
+-	Consistência dos ícones, nomes dos campos, cores de botões, facilitando a compreensão do usuário.
+-	Delimitação dos campos por margens, organizando informações relacionadas.
+  
+**Regras de Ouro:**
+-	Consistência dos ícones, nomes dos campos, cores de botões, facilitando a compreensão do usuário.
+-	A página possui carga de memória de trabalho baixa, sendo simples e intuitiva de ser utilizada.
+-	Controle do usuário para retornar a página anterior quando desejar. 
+  
+**Recomendações Ergonômicas:**
+-	Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
+-	Utilização de ícones convencionais, alinhados com o conhecimento do usuário (editar e excluir).
+
+![image](https://github.com/user-attachments/assets/a92e4ce9-2707-4a46-ae4d-235c1a2df7fc)
+
+### 4.3.18 Tela de Alterar Refeição
+>Interface utilizada pelo usuário alterar informações das refeições e os alimentos consumidos.
+
+**Princípios Gestálticos:**
+-	Simetria dos campos da página.
+-	Consistência dos ícones, nomes dos campos, cores de botões, facilitando a compreensão do usuário.
+-	Delimitação dos campos por margens, organizando informações relacionadas.
+  
+**Regras de Ouro:**
+-	Consistência dos ícones, nomes dos campos, cores de botões, facilitando a compreensão do usuário.
+-	A página possui carga de memória de trabalho baixa, sendo simples e intuitiva de ser utilizada.
+-	Controle do usuário para retornar a página anterior quando desejar. 
+  
+**Recomendações Ergonômicas:**
+-	Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
+-	Utilização de ícones convencionais, alinhados com o conhecimento do usuário (editar e excluir).
+
+![image](https://github.com/user-attachments/assets/13b61c50-f686-4e7d-b5ee-a8f398a5fbce)
+
+### 4.3.19 Tela de Excluir Refeição
+>Interface utilizada pelo usuário excluir alimentos ou refeições registradas.
+
+**Princípios Gestálticos:**
+-	Simetria dos campos da página.
+-	Consistência dos ícones, nomes dos campos, cores de botões, facilitando a compreensão do usuário.
+-	Delimitação dos campos por margens, organizando informações relacionadas.
+  
+**Regras de Ouro:**
+-	Consistência dos ícones, nomes dos campos, cores de botões, facilitando a compreensão do usuário.
+-	Controle do usuário para retornar a página anterior quando desejar. 
+  
+**Recomendações Ergonômicas:**
+-	Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
+
+![image](https://github.com/user-attachments/assets/99025955-0999-49ad-b2c5-a44f3107b5b2)
+
+
+
+
+
+
+ 
 
 
