@@ -46,11 +46,11 @@
   - Textos, como título e subtítulo, sem uso de fontes com serifa.
 
 **Usuário não logado:**
-![Página inicial 01](https://github.com/user-attachments/assets/3a2437c8-d625-44f7-be1c-f08689eb556b)
+![Group 481521](https://github.com/user-attachments/assets/af2d413a-dd2d-465c-a7ee-99485dd1a5a2)
 
 **Usuário logado:**
-![Página inicial - usuario logado](https://github.com/user-attachments/assets/3fd74bc3-7ecb-4df9-b329-b6e1460240cc)
-    
+![Group 481522](https://github.com/user-attachments/assets/5a0f9adf-22b4-4232-a44f-0d4b200a2027)
+
 ### 4.3.2 Tela de Login
 > Interface utilizada pelo usuário para acessar a aplicação web. 
 
