@@ -309,7 +309,7 @@
   - Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
   - Utilização de ícones convencionais, alinhados com o conhecimento do usuário.
 
-![Group 481524](https://github.com/user-attachments/assets/00d3747e-d336-453a-8838-d48c6bb8dbe1)
+![Group 481534](https://github.com/user-attachments/assets/6d78ef97-5b63-43a1-af17-fcb9e95919f2)
 
 ### 4.3.16 Tela de Gerenciamento de Sono
 > Interface utilizada pelo usuário para gerenciar o sono.
