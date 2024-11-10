@@ -38,7 +38,7 @@
   - Simetria da página, agradável visualmente para o usuário.
   
  **Regras de Ouro:**
-  - Consistência nos elementos da página, mantendo o formato dos campos, ícones conforme exibidos nas demais páginas.
+  - Consistência nos elementos da página, como por exemplo fontes, cores, pesos etc.
   - Menu lateral simples e intuitivo, permite que o usuário navegue entre as páginas disponíveis e esteja no controle (no caso de usuário já cadastrado e logado).
  
   **Recomendações Ergonômicas:**
