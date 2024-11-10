@@ -291,5 +291,23 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![Gerenciamento de humor@2x](https://github.com/user-attachments/assets/54496327-9f5e-45b7-9920-cd108d0e4e01)
 
+### 4.3.15 Tela de Gerenciamento de Sono
+> Interface utilizada pelo usuário para gerenciar o sono.
+
+**Princípios Gestálticos:**
+  - Alinhamento entre os campos da página e elementos internos (ícones e textos).
+  - Similaridade nos objetos utilizados, permitindo o reconhecimento de grupos.
+  - Página simétrica.
+    
+  **Regras de Ouro:**
+  - Consistência no formato dos campos, cores, fontes e pesos, ícones etc.
+  - A página possui carga de memória de trabalho baixa, sendo simples e intuitiva de ser utilizada.
+ 
+ **Recomendações Ergonômicas:**
+  - Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
+  - Utilização de ícones convencionais, alinhados com o conhecimento do usuário.
+
+![Gerenciamento de sono](https://github.com/user-attachments/assets/6577e328-a839-4a54-9096-9801f297427e)
+
 
 
