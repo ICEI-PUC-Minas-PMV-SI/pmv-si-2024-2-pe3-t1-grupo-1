@@ -31,7 +31,29 @@
 ## 4.3 Protótipos das Interfaces
 Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A fidelidade do protótipo refere-se ao nível de detalhes e funcionalidades incorporadas a ele. Assim, um protótipo de alta fidelidade é uma representação interativa do produto, baseada no computador ou em dispositivos móveis. Esse protótipo já apresenta maior semelhança com o design final em termos de detalhes e funcionalidades. No desenvolvimento dos protótipos, devem ser considerados os princípios gestálticos, as recomendações ergonômicas e as regras de design (como as 8 regras de ouro). É importante descrever no texto do relatório como os princípios gestálticos e as regras de ouro foram seguidas no projeto das interfaces. Nesta etapa deve-se dar uma ênfase na implementação do software de modo que possam ser realizados os testes com usuários na etapa seguinte.
 
-### 4.3.1 Tela de Login
+### 4.3.1 Página Inicial
+> Interface inicial da página "Saúde e Equilíbrio" com a apresentação da proposta (usuário não logado) e resumo de informações (para usuários logados).
+
+**Princípios Gestálticos:**
+  - Alinhamento dos campos para melhor organização visual.
+  - Simetria da página, agradável visualmente para o usuário.
+  - Utilização de ícones convencionais, alinhados com o conhecimento do usuário para exemplificar tópicos como alimentação, atividade física, etc.
+  
+ **Regras de Ouro:**
+  - Consistência nos elementos da página, mantendo o formato dos campos, ícones conforme exibidos nas demais páginas.
+  - Menu lateral simples e intuitivo, permite que o usuário navegue entre as páginas disponíveis e esteja no controle (no caso de usuário já cadastrado e logado).
+ 
+  **Recomendações Ergonômicas:**
+  - Utilização de ícones convencionais, alinhados com o conhecimento do usuário.
+  - Textos, como título e subtítulo, sem uso de fontes com serifa.
+
+**Usuário não logado:**
+![image](https://github.com/user-attachments/assets/cf9a3342-6244-444d-b1a8-567c04259ae2)
+
+**Usuário logado:**
+![image](https://github.com/user-attachments/assets/f1bc244f-9113-4282-824b-37571de35200)
+    
+### 4.3.2 Tela de Login
 > Interface utilizada pelo usuário para acessar a aplicação web. 
 
 **Princípios Gestálticos:**
@@ -53,7 +75,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![login - protótipo exemplo](https://github.com/user-attachments/assets/d4f70148-549f-4a64-afb9-0ec5c84a60a3)
 
-### 4.3.2 Tela de Criar Conta
+### 4.3.3 Tela de Criar Conta
 > Interface utilizada pelo usuário para criar uma nova conta.
 
  **Princípios Gestálticos:**
@@ -71,7 +93,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![Criar conta - Prototipo](https://github.com/user-attachments/assets/a480b642-2860-4a1f-a61d-f03aca922ebd)
 
-### 4.3.3 Tela de Esqueceu sua Senha
+### 4.3.4 Tela de Esqueceu sua Senha
 > Interface utilizada pelo usuário para recuperar senha.
 
   **Princípios Gestálticos:**
@@ -89,7 +111,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![Esqueceu senha - prototipo](https://github.com/user-attachments/assets/7722f8bf-66b5-46bb-b5af-5b7bce72cff8)
 
-### 4.3.4 Tela de Feedback 
+### 4.3.5 Tela de Feedback 
 > Mensagem de feedback emitida após o envio do e-mail com êxito.
 
  **Princípios Gestálticos:**
@@ -106,7 +128,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![envio email para recuperar senha - Prototipo](https://github.com/user-attachments/assets/f0f2d6da-af51-424f-b8d4-3f76498c7ba4)
 
-### 4.3.5 Tela de Alterar Senha
+### 4.3.6 Tela de Alterar Senha
 > Interface utilizada pelo usuário para alterar senha.
 
  **Princípios Gestálticos:**
@@ -124,7 +146,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
  
 ![Alterar senha - Prototipo](https://github.com/user-attachments/assets/1ee21c57-eced-434f-8400-b1363b356d2a)
 
-### 4.3.6 Tela de Comunidades
+### 4.3.7 Tela de Comunidades
 > Interface utilizada pelo usuário para visualizar as comunidades disponíveis criadas por outros usuários.
 
  **Princípios Gestálticos:**
@@ -142,7 +164,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![Comunidades - protótipo](https://github.com/user-attachments/assets/82fde190-8824-46c3-9225-6f8ec75ed5db)
 
-### 4.3.7 Tela de Criar Novas Comunidades
+### 4.3.8 Tela de Criar Novas Comunidades
 > Interface utilizada pelo usuário para criar novas comunidades.
 
  **Princípios Gestálticos:**
@@ -160,7 +182,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![Criar comunidade](https://github.com/user-attachments/assets/d1f0059a-9a65-478c-8de7-2605854f7b08)
 
-### 4.3.8 Tela de Participar de Comunidades
+### 4.3.9 Tela de Participar de Comunidades
 > Interface utilizada pelo usuário para interagir dentro das comunidades.
 
  **Princípios Gestálticos:**
@@ -177,7 +199,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![Tela de Participar - Exemplo](https://github.com/user-attachments/assets/76861a25-5f77-4167-b36b-03b26352746f)
 
-### 4.3.9 Tela de Atividades Físicas
+### 4.3.10 Tela de Atividades Físicas
 > Interface utilizada pelo usuário para visualizar as atividades físicas registradas.
 
  **Princípios Gestálticos:**
@@ -195,7 +217,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![Atividades físicas - Visualização](https://github.com/user-attachments/assets/b5f8572c-2697-4050-a3ae-fcebd5650bbb)
 
-### 4.3.10 Tela de Criar Atividade Física
+### 4.3.11 Tela de Criar Atividade Física
 > Interface utilizada pelo usuário para criar novas atividades físicas.
 
  **Princípios Gestálticos:**
@@ -216,7 +238,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![Criar atividade fisica](https://github.com/user-attachments/assets/7519f5f9-dd69-44a2-8c2d-6cb7807cc756)
 
-### 4.3.11 Tela de Alterar Atividade Física
+### 4.3.12 Tela de Alterar Atividade Física
 > Interface utilizada pelo usuário para alterar as atividades físicas registradas.
 
  **Princípios Gestálticos:**
@@ -238,7 +260,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![Alterar atividade fisica](https://github.com/user-attachments/assets/2cbb3bc5-ba17-4432-934e-a9054d306e27)
 
-### 4.3.12 Tela de Excluir tividade Física
+### 4.3.13 Tela de Excluir Atividade Física
 > Interface utilizada pelo usuário para excluir as atividades físicas registradas.
 
  **Princípios Gestálticos:**
@@ -255,7 +277,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![Excluir atividade fisica](https://github.com/user-attachments/assets/cd1128bd-c18f-477e-9465-b2917ca2e71b)
 
-### 4.3.13 Tela de Ajuda
+### 4.3.14 Tela de Ajuda
 > Interface utilizada pelo usuário para encontrar artigos de ajuda disponíveis, separados por tópicos.
 
  **Princípios Gestálticos:**
@@ -273,7 +295,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![Página - Ajuda](https://github.com/user-attachments/assets/d5de6a83-23dd-4e48-bee5-9bb98c81eac6)
 
-### 4.3.14 Tela de Gerenciamento de Humor
+### 4.3.15 Tela de Gerenciamento de Humor
 > Interface utilizada pelo usuário para gerenciar o humor.
 
 **Princípios Gestálticos:**
@@ -291,7 +313,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![Gerenciamento de humor@2x](https://github.com/user-attachments/assets/54496327-9f5e-45b7-9920-cd108d0e4e01)
 
-### 4.3.15 Tela de Gerenciamento de Sono
+### 4.3.16 Tela de Gerenciamento de Sono
 > Interface utilizada pelo usuário para gerenciar o sono.
 
 **Princípios Gestálticos:**
@@ -309,7 +331,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![Gerenciamento de sono](https://github.com/user-attachments/assets/6577e328-a839-4a54-9096-9801f297427e)
 
-### 4.3.16 Tela de Gerenciamento de Alimentação
+### 4.3.17 Tela de Gerenciamento de Alimentação
 >Interface utilizada pelo usuário visualize alimentos e refeições registradas.
 
 **Princípios Gestálticos:**
@@ -326,7 +348,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![image](https://github.com/user-attachments/assets/516f11f6-4a9c-4bc3-87a8-20fd07e4d343)
 
-### 4.3.17 Tela de Adicionar Refeição
+### 4.3.18 Tela de Adicionar Refeição
 >Interface utilizada pelo usuário adicione os alimentos consumidos.
 
 **Princípios Gestálticos:**
@@ -345,7 +367,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![image](https://github.com/user-attachments/assets/a92e4ce9-2707-4a46-ae4d-235c1a2df7fc)
 
-### 4.3.18 Tela de Alterar Refeição
+### 4.3.19 Tela de Alterar Refeição
 >Interface utilizada pelo usuário alterar informações das refeições e os alimentos consumidos.
 
 **Princípios Gestálticos:**
@@ -364,7 +386,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ![image](https://github.com/user-attachments/assets/13b61c50-f686-4e7d-b5ee-a8f398a5fbce)
 
-### 4.3.19 Tela de Excluir Refeição
+### 4.3.20 Tela de Excluir Refeição
 >Interface utilizada pelo usuário excluir alimentos ou refeições registradas.
 
 **Princípios Gestálticos:**
