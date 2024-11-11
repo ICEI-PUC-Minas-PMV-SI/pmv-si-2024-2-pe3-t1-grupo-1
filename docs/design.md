@@ -414,3 +414,25 @@
 -	Textos, como título e subtítulo, limitados a 60 caracteres e sem uso de fontes com serifa.
 
 ![Conteúdos educacionais](https://github.com/user-attachments/assets/fc94761d-7c8a-4eae-83d7-2b9d066d74d2)
+
+### 4.3.22 Tela de Metas
+>Interface utilizada pelo usuário para adicionar e gerenciar suas metas e objetivos.
+
+**Princípios Gestálticos:**
+-	Proximidade, metas organizadas em seções claras, separando-as por categorias.
+-	Hierarquia Visual, títulos e subtítulos de diferentes tamanhos e pesos para destacar cada categoria de meta, enquanto mantém uma tipografia simples e consistente.
+-	Alinhamento dos campos para melhor organização visual.
+-	Simetria da página, agradável visualmente para o usuário.
+
+  **Regras de Ouro:**
+-	Feedback Rápido, Exibe um feedback imediato após o usuário completar uma etapa. Por exemplo, ao marcar uma meta como concluída, a interface muda de cor para reforçar o progresso.
+-	Consistência nos elementos da página, mantendo o formato dos campos, ícones conforme exibidos nas demais páginas.
+-	Menu lateral simples e intuitivo, permite que o usuário navegue entre as páginas disponíveis e esteja no controle (no caso de usuário já cadastrado e logado).
+
+**Recomendações Ergonômicas:**
+-	Utilização de ícones convencionais, alinhados com o conhecimento do usuário.
+  
+![metas](https://github.com/user-attachments/assets/a0b21af4-e5d7-4c76-be1c-f75e12b6a9b8)
+
+
+  
