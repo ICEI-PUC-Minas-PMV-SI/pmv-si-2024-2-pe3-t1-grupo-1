@@ -398,7 +398,7 @@
 
 <img width="474" alt="Exclusão alimento" src="https://github.com/user-attachments/assets/3a9d4dcd-d890-440b-8350-a5031f21565a">
 
-### 4.3.20 Tela de Conteúdos Educacionais
+### 4.3.21 Tela de Conteúdos Educacionais
 >Interface utilizada pelo usuário não logado para interagir com os conteúdos educacionais disponíveis.
 
 **Princípios Gestálticos:**
