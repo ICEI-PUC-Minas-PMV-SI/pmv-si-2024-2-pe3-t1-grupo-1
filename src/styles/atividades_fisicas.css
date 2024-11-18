@@ -1,0 +1,100 @@
+@import url('..\styles\global.css');
+
+#top_column{
+    display: flex;
+    flex-direction: row;
+    background-color: #CEE7F1;
+    margin-top: 10px;
+    width: 100%;
+    padding: 33px 35px;
+}
+
+#top_column h3{
+    font-size: 30px;
+    color: #0D4366;
+    text-align: start;
+    flex: 1;
+}
+
+#data-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#data-container div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 35px;
+    border-bottom: 1px solid #CEE7F1;
+}
+
+#data-container p{
+    font-size: 27px;
+    flex: 1;
+    text-align: start;
+}
+
+.container_principal {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.quadro_tabela {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    width: 2285px;
+    height: 801px;
+    border-radius: 20px;
+    margin-left: 100px;
+    position: relative;
+    z-index: -1;
+}
+
+.filtros {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+ 
+.filtro_nome button,
+.filtro_categoria button {
+    background-color: var(--white);
+    color: var(--darkBlue2);
+    border-radius: 30px;
+    border: 1px solid var(--lightBlue2);
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 35px;
+    margin-right: 0.5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.btn_adicionar{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.btn_adicionar button{
+    background-color: #298EA6;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 35px;
+    cursor: pointer;
+}
+
+.icone_seta_filter{
+    margin-left: 2px;
+    width: 35px;
+    height: 12px;
+    vertical-align: middle;
+}

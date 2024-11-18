@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/criarAtividadeFisica.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/modal.css">
+    <title>Criar atividade física</title>
+</head>
+<body>
+    <div>
+        <div>
+            <div class="principal">
+                <h1>Criar uma nova atividade física</h1>
+                <p>Preencha os dados solicitados para criar uma nova atividade física</p>
+            </div>
+            <div class="container_01_pai">
+                <div class="campo_nome">
+                    <div class="container_01">
+                        <img src="../imgs/iconesAtividadeFisica/halter_icon.svg" alt="Ícone de halter">
+                        <input type="text" name="nome" placeholder="Nome">
+                    </div>
+                </div>
+                <div class="campo_duracao">
+                    <div class="container_01">
+                        <img src="../imgs/iconesAtividadeFisica/relogio_icon.svg" alt="Ícone de relógio">
+                        <input type="number" name="duracao" min="1" placeholder="Duração (minutos)">
+                    </div>
+                </div>
+            </div>
+            <div class="container_02_pai">
+                <div class="campo_intensidade">
+                    <div class="container_02">
+                        <img src="../imgs/iconesAtividadeFisica/fire_icon.svg" alt="Ícone de fogo">
+                        <p>Intensidade</p>
+                        <div class="intensidade_container">
+                            <input type="radio" name="intensidade" value="Baixa">
+                            <span>Baixa</span><br>
+                            <input type="radio" name="intensidade" value="Média">
+                            <span>Média</span><br>
+                            <input type="radio" name="intensidade" value="Alta">
+                            <span>Alta</span><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="campo_categoria">
+                    <div class="container_02">
+                        <img src="../imgs/iconesAtividadeFisica/exercicio_icon.svg" alt="Ícone de exercício">
+                        <p>Categoria</p>
+                        <div class="categoria_container">
+                            <div class="coluna_esquerda">
+                                <input type="radio" name="categoria" value="Bicicleta"><span>Bicicleta</span><br>
+                                <input type="radio" name="categoria" value="Corrida"><span>Corrida</span><br>
+                                <input type="radio" name="categoria" value="Musculação"><span>Musculação</span><br>
+                            </div>
+                            <div class="coluna_direita">
+                                <input type="radio" name="categoria" value="Natação"><span>Natação</span><br>
+                                <input type="radio" name="categoria" value="Yoga"><span>Yoga</span><br>
+                                <input type="radio" name="categoria" value="Treinamento funcional"><span>Treinamento funcional</span><br>
+                                <input type="radio" name="categoria" value="Outro"><span>Outro</span><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button_pai">
+                <button class="btn_voltar" id="btnvoltar">VOLTAR</button>
+                <button class="btn_filtrar" id="btnfiltrar">CRIAR</button>
+            </div>
+        </div>
+    </div>
+    <script src="../js/telaCriarAtividade.js"></script>
+</body>
+</html>

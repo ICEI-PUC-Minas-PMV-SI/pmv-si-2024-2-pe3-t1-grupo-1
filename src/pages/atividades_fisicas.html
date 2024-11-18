@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/atividades_fisicas.css">
+    <title>Atividades Físicas</title>
+</head>
+<body>
+    <div class="principal">
+        <h1>Atividades Físicas</h1>
+        <p>Registre e acompanhe suas atividades físicas</p>
+    </div>
+    <div class="iconesPagina">
+          <img src="..\imgs\iconesTemplatePadrao\logo projeto.svg">
+        <div class="tooltip">
+          <img src="../imgs/iconesTemplatePadrao/icon_paginainicial.svg">
+          <span class="tooltiptext">Página Inicial</span>
+        </div>
+        
+        <div class="tooltip">
+          <a href="..\pages\comunidades.html">
+            <img src="../imgs/iconesTemplatePadrao/icon_comunidades.svg">
+            <span class="tooltiptext">Comunidades</span>
+          </a>
+        </div>
+        
+        <div class="tooltip">
+          <img src="../imgs/iconesTemplatePadrao/icon_conteudoseducacionais.svg">
+          <span class="tooltiptext">Conteúdos Educacionais</span>
+        </div>
+        
+        <div class="tooltip">
+          <img src="../imgs/iconesTemplatePadrao/icon_alimentacao.svg">
+          <span class="tooltiptext">Alimentação</span>
+        </div>
+        
+        <div class="tooltip">
+          <img src="../imgs/iconesTemplatePadrao/icon_atividadesfisicas.svg">
+          <span class="tooltiptext">Atividades Físicas</span>
+        </div>
+        
+        <div class="tooltip">
+          <img src="../imgs/iconesTemplatePadrao/icon_sono.svg">
+          <span class="tooltiptext">Sono</span>
+        </div>
+        
+        <div class="tooltip">
+          <img src="../imgs/iconesTemplatePadrao/icon_humor.svg">
+          <span class="tooltiptext">Humor</span>
+        </div>
+        
+        <div class="tooltip">
+          <img src="../imgs/iconesTemplatePadrao/icon_metas.svg">
+          <span class="tooltiptext">Metas</span>
+        </div>
+        
+        <div class="tooltip">
+          <img src="../imgs/iconesTemplatePadrao/icon_ajuda.svg">
+          <span class="tooltiptext">Ajuda</span>
+        </div>
+      </div>
+    <div class="container_principal">
+        <div class="quadro_tabela">
+            <div class="filtros">
+                <div class="filtro_nome">
+                    <button id="btnNomeFiltro">Nome<img src="../imgs/iconesTemplatePadrao/seta_filter.svg" class="icone_seta_filter"></button>
+                </div>
+                <div class="filtro_categoria">
+                    <button id="btnCategoriaFiltro">Categoria<img src="../imgs/iconesTemplatePadrao/seta_filter.svg" class="icone_seta_filter"></button>
+                </div>
+            </div>
+            <div class="btn_adicionar">
+                <button id="openModal">ADICIONAR</button>
+            </div>
+            <div id="fundo_colunas">
+                <div id="top_column">
+                    <h3 id="nome">Nome</h3>
+                    <h3>Categoria</h3>
+                    <h3>Duração (minutos)</h3>
+                    <h3>Intensidade</h3>
+                </div>
+            </div>
+            <div id="data-container"></div>
+        </div>
+    </div>
+ 
+    <!-- Modal container -->
+    <div id="modalContainer" class="modal">
+        <div class="modal-conteudo" id="conteudoModal">
+        </div>
+    </div>
+
+    <!-- filtro nome container -->
+    <div id="filtroNomeContainer" class="nomeContainer">
+        <div class="filtroNome-conteudo" id="filtroNomeModal">
+        </div>
+    </div>
+
+    <!-- filtro categoria container -->
+    <div id="filtroCategoriaContainer" class="categoriaContainer">
+        <div class="filtroCategoria-conteudo" id="filtroCategoriaModal">
+        </div>
+    </div>
+    <script type="module" src="..\api\atvdFisica.js"></script>
+    <script src="../js/telaFiltroNome.js"></script>
+    <script src="../js/telaFiltroCategoria.js"></script>
+    <script src="../js/telaCriarAtividade.js"></script>
+</body>
+</html>

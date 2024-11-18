@@ -1,0 +1,72 @@
+@import url(..\styles\global.css);
+
+.principal{
+    position: relative;
+}
+
+.btn_selecao{
+    position: absolute;
+    right: 1100px;
+    border: none;
+    background-color: #FFFF;
+    font-size: 25px;
+    color: #0D4366;
+    cursor: pointer;
+}
+
+.container_pai{
+    display: flex;
+    flex-direction: column;
+    margin-left: 205px;
+    margin-top: 30px;
+}
+
+.opcoes_checkbox{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.opcoes_checkbox input[type="checkbox"]{
+    transform: scale(2.5);
+    cursor: pointer;
+}
+
+.opcoes_checkbox span{
+    font-size: 25px;
+}
+
+.button_pai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 740px;
+    margin-left: 510px;
+    margin-top: 40px;
+}
+
+.btn_voltar{
+    margin-right: 40px;
+    background-color: #E3F1F4;
+    color: #298EA6;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 60px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn_filtrar{
+    margin-right: 40px;
+    background-color: #298EA6;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 60px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
