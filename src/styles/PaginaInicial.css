@@ -1,0 +1,169 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.header h1 {
+    margin: 0;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+#BotaoEntrar {
+    background-color: #FFFFFF;
+    color: #298EA6;
+    border-radius: 10px;
+    border-color: #298EA6;
+    font-weight: bold;
+    
+
+}
+
+#BotaoCadastrar {
+    background-color: #298EA6;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+
+}
+
+.buttons button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Espaçamento entre as colunas */
+    gap: 20px; /* Espaçamento adicional entre colunas */
+    margin-top: 20px; /* Espaçamento acima das colunas */
+    font-weight: bold;
+}
+
+.column {
+    flex: 1; /* Todas as colunas terão o mesmo tamanho */
+    text-align: center; /* Centraliza o texto e ícone */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.column img {
+    margin-top: 10px; /* Espaçamento entre o parágrafo e o ícone */
+    width: 50px; /* tamanho do ícone */
+    height: 50px;
+}
+
+/* Estilo do texto centralizado */
+.centered-text {
+    text-align: center;
+    font-size: 28px; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    margin-top: 50px; /* Espaçamento acima do texto */
+    color: #007BFF; /* Ajusta a cor */
+    padding-top: 100px;
+}
+
+
+
+
+
+
+/*RESPONSIVIDADE*/
+
+/* Media Query para dispositivos menores */
+@media (max-width: 768px) {
+    /* Header responsivo */
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header h1 {
+        margin: 0;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 150px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 150px;
+    }
+
+    #BotaoEntrar, #BotaoCadastrar {
+        font-size: 14px;
+        width: 100%; /* Botões ocupam toda a largura */
+    }
+
+    /* Ajuste das colunas */
+    .container {
+        flex-direction: column; /* Colunas ficam empilhadas */
+        gap: 15px;
+    }
+
+    .column {
+        margin: 0 auto; /* Centraliza as colunas */
+        width: 75%; /* Largura ajustada para caber na tela */
+        margin-right: 80px;
+    }
+
+    .column p {
+        margin-left: 10px;
+    }
+
+    /* Texto centralizado */
+    .centered-text {
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .principal p {
+        font-size: 20px;
+        margin-right: 50px;
+    }
+}
+
+
+
+/* Media Query para dispositivos ainda menores (smartphones) */
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 20px;
+    }
+
+    #BotaoEntrar, #BotaoCadastrar {
+        font-size: 12px;
+    }
+
+    .column img {
+        width: 40px; /* Ícones menores */
+        height: 40px;
+    }
+
+    .centered-text {
+        font-size: 18px;
+    }
+}

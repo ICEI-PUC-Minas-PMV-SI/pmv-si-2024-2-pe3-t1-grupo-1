@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/global.css">
-    <link rel="stylesheet" href="../styles/atividades_fisicas.css">
-    <title>Atividades Físicas</title>
+    <link rel="stylesheet" href="../styles/alimentacao.css">
+    <title>Alimentação</title>
 </head>
 <body>
     <div class="principal">
-        <h1>Atividades Físicas</h1>
-        <p>Registre e acompanhe suas atividades físicas</p>
+        <h1>Alimentação</h1>
+        <p>Registre os alimentos consumidos e acompanhe histórico calórico e nutricional</p>
     </div>
     <div class="iconesPagina">
       <img src="../imgs/iconesTemplatePadrao/logo projeto.svg">
@@ -21,10 +21,10 @@
       <img src="..\imgs\iconesTemplatePadrao\icon_conteudoseducacionais.svg">
       </a>
       <a href="..\pages\alimentacao.html">
-        <img src="../imgs/iconesTemplatePadrao/icon_alimentacao.svg">
+        <img src="../imgs/iconesTemplatePadrao/icon_alimentacao.svg" style="background-color: #D4DCDE;" >
       </a>
        <a href="..\pages\atividades_fisicas.html">
-          <img src="..\imgs\iconesTemplatePadrao\icon_atividadesfisicas.svg" style="background-color: #D4DCDE;" >
+          <img src="..\imgs\iconesTemplatePadrao\icon_atividadesfisicas.svg">
       </a>
       <!-- <img src="..\imgs\iconesTemplatePadrao\icon_sono.svg"> -->
       <!-- <img src="..\imgs\iconesTemplatePadrao\icon_humor.svg"> -->
@@ -37,10 +37,10 @@
         <div class="quadro_tabela">
             <div class="filtros">
                 <div class="filtro_nome">
-                    <button id="btnNomeFiltro">Nome<img src="../imgs/iconesTemplatePadrao/seta_filter.svg" class="icone_seta_filter"></button>
+                    <button id="btnNomeFiltro">Refeição<img src="../imgs/iconesTemplatePadrao/seta_filter.svg" class="icone_seta_filter"></button>
                 </div>
                 <div class="filtro_categoria">
-                    <button id="btnCategoriaFiltro">Categoria<img src="../imgs/iconesTemplatePadrao/seta_filter.svg" class="icone_seta_filter"></button>
+                    <button id="btnCategoriaFiltro">Alimentos<img src="../imgs/iconesTemplatePadrao/seta_filter.svg" class="icone_seta_filter"></button>
                 </div>
             </div>
             <div class="btn_adicionar">
@@ -48,10 +48,10 @@
             </div>
             <div id="fundo_colunas">
                 <div id="top_column">
-                    <h3 id="nome">Nome</h3>
-                    <h3>Categoria</h3>
-                    <h3>Duração (minutos)</h3>
-                    <h3>Intensidade</h3>
+                    <h3 id="nome">Refeição</h3>
+                    <h3>Alimentos Consumidos</h3>
+                    <h3>Calorias</h3>
+                    <!-- <h3>Intensidade</h3> -->
                 </div>
             </div>
             <div id="data-container"></div>
