@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/global.css">
     <link rel="stylesheet" href="../styles/atividades_fisicas.css">
+    <link rel="stylesheet" href="../styles/modal.css">
     <link rel="shortcut icon" href="../imgs/index/Vector.png" type="image/x-icon">
-    <title>Atividades Físicas</title>
+    <title>Sono</title>
 </head>
 
 <body>
@@ -16,7 +17,7 @@
         <div class="user-info">
             <div class="avatar-section">
                 <img src="../imgs/iconesTemplatePadrao/icon_avatar.png" alt="Avatar do usuário" class="avatar">
-                <p class="user-name" id="userName">Usuário XXX</p>
+                <p class="user-name" id="userName"></p>
             </div>
             <div class="actions">
                 <a class="edit-info" href="../pages/GerenciarConta.html">
@@ -62,18 +63,8 @@
         <div class="container_principal">
             <p class="slogan-title">Registre e acompanhe seu sono</p>
             <div class="quadro_tabela">
-                <div class="filtros">
-                    <div class="filtro_nome">
-                        <button id="btnNomeFiltro">Nome<img src="../imgs/iconesTemplatePadrao/seta_filter.svg"
-                                class="icone_seta_filter"></button>
-                    </div>
-                    <div class="filtro_categoria">
-                        <button id="btnCategoriaFiltro">Categoria<img src="../imgs/iconesTemplatePadrao/seta_filter.svg"
-                                class="icone_seta_filter"></button>
-                    </div>
-                </div>
                 <div class="btn_adicionar">
-                    <button id="openModal">ADICIONAR</button>
+                    <button id="openModalSono">ADICIONAR</button>
                 </div>
                 <div id="fundo_colunas">
                     <div id="top_column">
@@ -87,26 +78,49 @@
     </div>
 
     <!-- Modal container -->
-    <div id="modalContainer" class="modal">
-        <div class="modal-conteudo" id="conteudoModal">
+    <div id="modalContainerSono" class="modal-overlay">
+        <div class="modal">
+            <h1 class="modal-title">Cadastro de Sono</h1>
+            <form class="modal-form">
+                <label class="modal-label">Horario de Acordar
+                    <input class="modal-input" type="time" id="horarioAcordar" required>
+                </label>
+
+                <label class="modal-label">Horário de Dormir
+                    <input class="modal-input" type="time" id="horarioDormir" required>
+                </label>
+
+            </form>
+
+            <div class="container-modal-buttons">
+                <button id="closeModalSono" class="modal-button">Cancelar</button>
+                <button id="submitModalSono" class="modal-button">Salvar</button>
+            </div>
         </div>
     </div>
 
-    <!-- filtro nome container -->
-    <div id="filtroNomeContainer" class="nomeContainer">
-        <div class="filtroNome-conteudo" id="filtroNomeModal">
+    <div id="modalContainerEditarSono" class="modal-overlay">
+        <div class="modal">
+            <h1 class="modal-title">Atualização de Sono</h1>
+            <form class="modal-form">
+                <label class="modal-label">Horario de Acordar
+                    <input class="modal-input" type="time" id="horarioAcordarEdit" required>
+                </label>
+
+                <label class="modal-label">Horário de Dormir
+                    <input class="modal-input" type="time" id="horarioDormirEdit" required>
+                </label>
+            </form>
+
+            <div class="container-modal-buttons">
+                <button id="closeModalEditarSono" class="modal-button">Cancelar</button>
+                <button id="submitModalEditarSono" class="modal-button">Salvar</button>
+            </div>
         </div>
     </div>
 
-    <!-- filtro categoria container -->
-    <div id="filtroCategoriaContainer" class="categoriaContainer">
-        <div class="filtroCategoria-conteudo" id="filtroCategoriaModal">
-        </div>
-    </div>
     <script type="module" src="..\api/sono.js"></script>
-    <script src="../js/telaFiltroNome.js"></script>
-    <script src="../js/telaFiltroCategoria.js"></script>
-    <script src="../js/telaCriarAtividade.js"></script>
+    
 
     <script>
         document.getElementById("userName").innerText = "Olá, " + localStorage.getItem("userName") + "!";

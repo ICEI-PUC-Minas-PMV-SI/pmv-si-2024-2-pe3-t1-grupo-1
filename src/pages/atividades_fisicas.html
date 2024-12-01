@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/global.css">
     <link rel="stylesheet" href="../styles/atividades_fisicas.css">
+    <link rel="stylesheet" href="../styles/modal.css">
     <link rel="shortcut icon" href="../imgs/index/Vector.png" type="image/x-icon">
     <title>Atividades Físicas</title>
 </head>
@@ -16,7 +17,7 @@
         <div class="user-info">
             <div class="avatar-section">
                 <img src="../imgs/iconesTemplatePadrao/icon_avatar.png" alt="Avatar do usuário" class="avatar">
-                <p class="user-name" id="userName">Usuário XXX</p>
+                <p class="user-name" id="userName"></p>
             </div>
             <div class="actions">
                 <a class="edit-info" href="../pages/GerenciarConta.html">
@@ -62,24 +63,13 @@
         <div class="container_principal">
             <p class="slogan-title">Registre e acompanhe suas atividades físicas</p>
             <div class="quadro_tabela">
-                <div class="filtros">
-                    <div class="filtro_nome">
-                        <button id="btnNomeFiltro">Nome<img src="../imgs/iconesTemplatePadrao/seta_filter.svg"
-                                class="icone_seta_filter"></button>
-                    </div>
-                    <div class="filtro_categoria">
-                        <button id="btnCategoriaFiltro">Categoria<img src="../imgs/iconesTemplatePadrao/seta_filter.svg"
-                                class="icone_seta_filter"></button>
-                    </div>
-                </div>
                 <div class="btn_adicionar">
-                    <button id="openModal">ADICIONAR</button>
+                    <button id="openModalAtividade">ADICIONAR</button>
                 </div>
                 <div id="fundo_colunas">
                     <div id="top_column">
                         <h3 id="nome">Nome</h3>
-                        <h3>Categoria</h3>
-                        <h3>Duração (minutos)</h3>
+                        <h3>Duração (Minutos)</h3>
                         <h3>Intensidade</h3>
                     </div>
                 </div>
@@ -89,26 +79,66 @@
     </div>
 
     <!-- Modal container -->
-    <div id="modalContainer" class="modal">
-        <div class="modal-conteudo" id="conteudoModal">
+    <div id="modalContainerAtividade" class="modal-overlay">
+        <div class="modal">
+            <h1 class="modal-title">Cadastro de Atividade</h1>
+            <form class="modal-form">
+                <label class="modal-label">Nome
+                    <input class="modal-input" type="text" id="nomeAtividade" required>
+                </label>
+
+                <label class="modal-label">Duração (Minutos)
+                    <input class="modal-input" type="text" id="duracao" required>
+                </label>
+
+                <label class="modal-label">Intensidade
+                    <select id="intensidade" class="modal-input">
+                        <option value=""></option>
+                        <option value="Alta">Alta</option>
+                        <option value="Média">Média</option>
+                        <option value="Baixa">Baixa</option>
+                    </select>
+                </label>
+            </form>
+
+            <div class="container-modal-buttons">
+                <button id="closeModalAtividade" class="modal-button">Cancelar</button>
+                <button id="submitModalAtividade" class="modal-button">Salvar</button>
+            </div>
         </div>
     </div>
 
-    <!-- filtro nome container -->
-    <div id="filtroNomeContainer" class="nomeContainer">
-        <div class="filtroNome-conteudo" id="filtroNomeModal">
+    <div id="modalContainerEditarAtividade" class="modal-overlay">
+        <div class="modal">
+            <h1 class="modal-title">Atualização de atividade</h1>
+            <form class="modal-form">
+                <label class="modal-label">Nome
+                    <input class="modal-input" type="text" id="nomeEdit" required>
+                </label>
+
+                <label class="modal-label">Duração (Minutos)
+                    <input class="modal-input" type="text" id="duracaoEdit" required>
+                </label>
+
+                <label class="modal-label">Intensidade
+                    <select id="intensidadeEdit" class="modal-input">
+                        <option value=""></option>
+                        <option value="Alta">Alta</option>
+                        <option value="Média">Média</option>
+                        <option value="Baixa">Baixa</option>
+                    </select>
+                </label>
+            </form>
+
+            <div class="container-modal-buttons">
+                <button id="closeModalEditarAtividade" class="modal-button">Cancelar</button>
+                <button id="submitModalEditarAtividade" class="modal-button">Salvar</button>
+            </div>
         </div>
     </div>
 
-    <!-- filtro categoria container -->
-    <div id="filtroCategoriaContainer" class="categoriaContainer">
-        <div class="filtroCategoria-conteudo" id="filtroCategoriaModal">
-        </div>
-    </div>
-    <script type="module" src="..\api\atvdFisica.js"></script>
-    <script src="../js/telaFiltroNome.js"></script>
-    <script src="../js/telaFiltroCategoria.js"></script>
-    <script src="../js/telaCriarAtividade.js"></script>
+
+    <script type="module" src="../api/atvdFisica.js"></script>
 
     <script>
         document.getElementById("userName").innerText = "Olá, " + localStorage.getItem("userName") + "!";

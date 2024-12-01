@@ -15,6 +15,7 @@
     text-align: center;
 }
 
+
 #top_column{
     display: flex;
     flex-direction: row;
@@ -64,7 +65,13 @@
     flex-direction: column;
     border-radius: 20px;
     position: relative;
-    z-index: -1;
+}
+
+.container-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
 .filtros {
@@ -89,7 +96,7 @@
 }
 
 .btn_adicionar{
-    position: absolute;
+    /* position: absolute; */
     top: 10px;
     right: 30px;
 }
@@ -104,6 +111,11 @@
     border-radius: 5px;
     padding: 20px 35px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn_adicionar button:hover{
+    background-color: #0D4366;
 }
 
 .icone_seta_filter{
@@ -112,17 +124,6 @@
     height: 12px;
     vertical-align: middle;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* Estilo da seção de informações do usuário */
 .user-info {
@@ -186,8 +187,37 @@
     height: 16px;
 }
 
+.button-delete {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin: 0 5px;
+    font-size: 1.2rem;
+}
 
+.button-delete:hover {
+    background-color: #CC0000;
+}
 
+.button-update {
+    background-color: #0D4366;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin: 0 5px;
+    font-size: 1.2rem;
+}
+
+.button-update:hover {
+    background-color: #0A2C3D;
+}
 
 
 /* Responsividade para área de informações do usuário */

@@ -72,7 +72,6 @@ closeModalEditar.addEventListener("click", () => {
 })
 
 btnAdicionar.addEventListener("click", () => {
-    console.log("Clicou no botão adicionar");
     modalContainer.style.display = "flex";
     modalContainer.style.justifyContent = "center";
     modalContainer.style.alignItems = "center";
@@ -118,13 +117,10 @@ async function deleteAlimentacao(id) {
     console.log("Clicou no botão apagar");
     console.log(id);
     const userResponse = await deleteDataFromSuperbase('Alimentacao', id)
-        .then(({ deletedData, error }) => {
-            if (!error) {
-                alert("Alimentação apagada com sucesso!");
-                window.location.reload();
-                return deletedData;
-            }
-            return false;
+        .then(() => {
+            alert("Alimentação apagada com sucesso!");
+            window.location.reload();
+            return
         })
         .catch(err => console.error("Erro na requisição:", err));
 }
