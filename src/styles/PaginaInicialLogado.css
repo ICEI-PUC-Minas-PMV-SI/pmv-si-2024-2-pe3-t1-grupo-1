@@ -9,6 +9,9 @@
 
 .principal {
     width: 100%;
+    background-image: url("../imgs/wallhaven-01ex9v_1920x1080.png");
+    object-fit: contain;
+    background-repeat: no-repeat;
 }
 
 .container {
