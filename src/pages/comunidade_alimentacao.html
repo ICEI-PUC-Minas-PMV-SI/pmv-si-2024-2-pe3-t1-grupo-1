@@ -58,49 +58,28 @@
                 <img src="..\imgs\iconesTemplatePadrao/icon_ajuda.svg">
             </a>
         </div>
-        <div class="principal">
-            <p class="slogan-title">Explore as comunidades disponíveis e compartilhe suas experiências!</p>
-            <div class="container-cards">
-                <div class="cards">
-                    <h3>Dormir com qualidade?</h3>
-                    <p>O objetivo do grupo é compartilhar rotinas de sono que são seguidas para dormir com qualidade.</p>
-                    <hr>
-                    <h3>Tópicos relacionados</h3>
-                    <div class="container-topicos">
-                        <span>Atividade física</span>
-                        <span>Alimentação</span>
-                    </div>
-                    <button id="unirComunidadeDormir">Unir-se</button>
+        <main>
+
+            <img class="banner" src="../imgs/image 50.png" alt="">
+            <h1 class="comunidade-title">Alimentação saundável e longevidade</h1>
+            <p class="comunidade-descricao">Comunidade criada para apoiar uma alimentação saudável, sem restrições. Entre e compartilhe suas experiências conosco!</p>
+
+
+            <div class="comunidade-container-cards">
+                <div class="news-card">
+                    <img src="../imgs/alimentacao-nutricao-criancas-escola.avif" alt="">
+                    <a href="https://www.unimedcampinas.com.br/blog/viver-com-saude/como-dormir-bem-a-noite-toda-veja-5-dicas-essenciais">Guia da alimentação saudável</a>
+                    <span class="description">Como se alimentar bem</span>
                 </div>
-                <div class="cards">
-                    <h3>Alimentação saudável</h3>
-                    <p>Grupo voltado para apoiar as práticas de hábitos alimentares saudáveis.</p>
-                    <hr>
-                    <h3>Tópicos relacionados</h3>
-                    <div class="container-topicos">
-                        <span>Alimentação</span>
-                        <span>Saúde</span>
-                    </div>
-                    <button id="unirComunidadeAlimentaca">Unir-se</button>
+
+                <div class="news-card">
+                    <img src="../imgs/Captura_de_tela_2024_04_24_134237_4e71eb6c3a.avif" alt="">
+                    <a href="https://saude.sesisc.org.br/blog/promocao-da-saude-nas-empresas/dormir-bem-saude-mental/">Dicas para uma boa alimentação</a>
+                    <span class="description">Os segredos para uma boaalimentação</span>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <script>
-
-        const btnSono = document.getElementById('unirComunidadeDormir');
-        btnSono.addEventListener('click', () => {
-            window.location.href = '../pages/comunidade_dormir.html';
-        });
-
-        const btnAlimentacao = document.getElementById('unirComunidadeAlimentaca');
-        btnAlimentacao.addEventListener('click', () => {
-            window.location.href = '../pages/comunidade_alimentacao.html';
-        });
-
-    </script>
-
+        </main>
 </body>
 
 </html>
