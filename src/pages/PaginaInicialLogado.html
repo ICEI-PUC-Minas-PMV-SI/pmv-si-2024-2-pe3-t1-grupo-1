@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,82 +8,36 @@
     <link href="../styles/PaginaInicialLogado.css" rel="stylesheet">
     <title>Pagina Inicial Logado</title>
 </head>
+
 <body>
     <div class="header">
         <h1>Página inicial</h1>
         <div class="user-info">
             <div class="avatar-section">
                 <img src="../imgs/iconesTemplatePadrao/icon_avatar.png" alt="Avatar do usuário" class="avatar">
-                <p class="user-name">Usuário XXX</p>
+                <p class="user-name" id="userName">Usuário XXX</p>
             </div>
             <div class="actions">
-                <p class="edit-info">
+                <a class="edit-info">
                     <img src="../imgs/iconesTemplatePadrao/icon_editar.svg" alt="Ícone editar"> Editar informações
-                </p>
-                <p class="logout">
+                </a>
+                <a class="logout" href="../index.html">
                     <img src="../imgs/iconesTemplatePadrao/icon_sair.svg" alt="Ícone sair"> Sair
-                </p>
+                </a>
             </div>
         </div>
     </div>
-    <div class="principal">
-        <!-- <p>Olá, Usuário XXX! <br>
-            Aqui está seu resumo de hoje:
-            </p> -->
-         <!-- Contêiner das colunas -->
-         <div class="container">
-            <!-- Coluna 1 -->
-            <div id="Coluna1" class="column">
-                <p id="paragrafo1">Olá, Usuário XXX!</p>
-                <p id="paragrafo2">Aqui está seu resumo de hoje:</p>
-                <!-- <img src="../imgs/iconesTemplatePadrao/icon_usuarios.png" alt="Ícone de atividades físicas"> -->
-            </div>
-            <!-- Coluna 2 -->
-            <div id="Coluna2" class="column">
-                <div class="content">
-                    <div class="item">
-                        <img src="../imgs/iconesAtividadeFisica/fire_icon.svg" alt="Ícone de alimentação">
-                        <p>Calorias consumidas: 1300 kcal</p>
-                    </div>
-                    <div class="item">
-                        <img src="../imgs/iconesTemplatePadrao/icon_atividadesfisicas.svg" alt="Ícone de alimentação">
-                        <p>Atividades realizadas: Musculação</p>
-                    </div>
-                    <div class="item">
-                        <img src="../imgs/iconesTemplatePadrao/icon_sono.svg" alt="Ícone de alimentação">
-                        <p>Sono: 7h20m</p>
-                    </div>
-                    <div class="item">
-                        <img src="../imgs/iconesTemplatePadrao/icon_humor.svg" alt="Ícone de humor">
-                        <div class="text-with-icon">
-                            <p>Humor:</p>
-                            <img id="Right-icon" src="../imgs/iconesTemplatePadrao/emoji_sorriso.PNG" alt="Ícone de sorriso" class="right-icon">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Coluna 3 -->
-            <!-- <div id="Coluna3" class="column">
-                <p>Gerenciar metas rumo ao seus objetivos e muito mais</p>
-                <img src="../imgs/iconesTemplatePadrao/icon_metas.svg" alt="Ícone de sono e humor">
-            </div> -->
-        </div>
-        <!-- Texto centralizado -->
-        <p class="centered-text">
-            Dica da semana:
-            <p>“Lembre-se: o importante é a consistência. Pequenas ações diárias levam a grandes resultados!”</p>
-        </p>
-        </div>
-        <div class="iconesPagina">
+    <div class="main">
+        <div class="sidebar">
             <img src="../imgs/iconesTemplatePadrao/logo projeto.svg">
-            <a href="..\pages\PaginaInicialLogado.html" style="background-color: #D4DCDE;" >
+            <a href="..\pages\PaginaInicialLogado.html" style="background-color: #D4DCDE;">
                 <img src="../imgs/iconesTemplatePadrao/icon_paginainicial.svg">
             </a>
-            <!-- <a href="..\pages\comunidades.html">
+            <a href="..\pages\comunidades.html">
                 <img src="../imgs/iconesTemplatePadrao/icon_comunidades.svg">
-            </a> -->
+            </a>
             <a href="..\pages\ConteudosEducacionais.html">
-            <img src="..\imgs\iconesTemplatePadrao\icon_conteudoseducacionais.svg">
+                <img src="..\imgs\iconesTemplatePadrao\icon_conteudoseducacionais.svg">
             </a>
             <a href="..\pages\alimentacao.html">
                 <img src="../imgs/iconesTemplatePadrao/icon_alimentacao.svg">
@@ -90,12 +45,59 @@
             <a href="..\pages\atividades_fisicas.html">
                 <img src="..\imgs\iconesTemplatePadrao\icon_atividadesfisicas.svg">
             </a>
-            <!-- <img src="..\imgs\iconesTemplatePadrao\icon_sono.svg"> -->
-            <!-- <img src="..\imgs\iconesTemplatePadrao\icon_humor.svg"> -->
-            <!-- <img src="..\imgs\iconesTemplatePadrao\icon_metas.svg"> -->
+            <img src="..\imgs\iconesTemplatePadrao\icon_sono.svg">
+            <img src="..\imgs\iconesTemplatePadrao\icon_humor.svg">
+            <img src="..\imgs\iconesTemplatePadrao\icon_metas.svg">
             <a href="..\pages\Ajuda.html">
                 <img src="..\imgs\iconesTemplatePadrao/icon_ajuda.svg">
-                </a>
+            </a>
         </div>
+        <div class="principal">
+            <div class="container">
+                <div id="Coluna1" class="column">
+                    <p id="userNameP"></p>
+                    <p id="paragrafo2">Aqui está seu resumo de hoje:</p>
+                </div>
+                <div id="Coluna2" class="column">
+                    <div class="content">
+                        <div class="item">
+                            <img src="../imgs/iconesAtividadeFisica/fire_icon.svg" alt="Ícone de alimentação">
+                            <p>Calorias consumidas: 1300 kcal</p>
+                        </div>
+                        <div class="item">
+                            <img src="../imgs/iconesTemplatePadrao/icon_atividadesfisicas.svg"
+                                alt="Ícone de alimentação">
+                            <p>Atividades realizadas: Musculação</p>
+                        </div>
+                        <div class="item">
+                            <img src="../imgs/iconesTemplatePadrao/icon_sono.svg" alt="Ícone de alimentação">
+                            <p>Sono: 7h20m</p>
+                        </div>
+                        <div class="item">
+                            <img src="../imgs/iconesTemplatePadrao/icon_humor.svg" alt="Ícone de humor">
+                            <div class="text-with-icon">
+                                <p>Humor:</p>
+                                <img id="Right-icon" src="../imgs/iconesTemplatePadrao/emoji_sorriso.PNG"
+                                    alt="Ícone de sorriso" class="right-icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="centered-text">
+                Dica da semana:
+            </p>
+            <p class="minor-centered-text">
+                “Lembre-se: o importante é a consistência. Pequenas ações diárias levam a grandes resultados!”
+            </p>
+
+        </div>
+
+        <script>
+            document.getElementById("userName").innerText = "Olá, " + localStorage.getItem("userName") + "!";
+            document.getElementById("userNameP").innerText = "Olá, " + localStorage.getItem("userName") + "!";
+        </script>
+
 </body>
+
 </html>

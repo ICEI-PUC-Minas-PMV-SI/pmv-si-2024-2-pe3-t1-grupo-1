@@ -3,22 +3,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     border-bottom: 1px solid #ccc;
 }
 
-.header h1 {
-    margin: 0;
-    margin-left: 190px;
-    margin-top: 20px;
+.principal {
+    padding: 20px;
+}
+
+.slogan-title {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: var(--darkBlue2);
+    text-align: center;
 }
 
 .container {
     display: flex;
     justify-content: space-between; /* Espaçamento entre as colunas */
     gap: 20px; /* Espaçamento adicional entre colunas */
-    margin-top: 20px; /* Espaçamento acima das colunas */
-    margin-right: 20px;
 }
 
 .container2 {
@@ -37,6 +40,8 @@
     margin-top: 50px;
     flex: 1;
     background-color: #FFFFFF;
+    height: 220px;
+    transition: all 0.3s ease-in-out;
 }
 
 .column p {
@@ -53,6 +58,7 @@
 .column div {
     display: flex;
     flex-direction: column; /* Empilha os textos verticalmente */
+    gap: 10px;
 }
 
 .column a {
@@ -62,7 +68,13 @@
 }
 
 .column:hover {
-    background-color: #ddd;  /* Cor de fundo ao passar o mouse */
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: var(--darkBlue1);
+}
+
+.column:hover .paragrafo-text {
+    color: white;
 }
 
 /* Estilo do texto centralizado */
@@ -82,11 +94,16 @@
     display: flex; /* Torna o parágrafo um contêiner flex */
     align-items: center; /* Alinha verticalmente os itens */
     gap: 8px; /* Espaçamento entre o ícone e o texto */
+    font-size: 2rem;
 }
 
 #Paragrafo3 {
     color: #0F0F0F;
     font-weight: 600;
+}
+
+.paragrafo-text {
+    color: var(--darkBlue1);
 }
 
 

@@ -3,56 +3,63 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     border-bottom: 1px solid #ccc;
 }
 
-.header h1 {
-    margin: 0;
-    margin-left: 190px;
-    margin-top: 20px;
+.container_principal {
+    display: flex;
+    flex-direction: column;
+    gap: 0 20px;
+    width: 100%;
+    padding: 20px;
 }
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between; /* Espaçamento entre as colunas */
     gap: 20px; /* Espaçamento adicional entre colunas */
-    margin-top: 20px; /* Espaçamento acima das colunas */
-    margin-right: 20px;
+    padding: 20px;
+}
+
+.slogan-title {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: var(--darkBlue2);
+    text-align: center;
 }
 
 .container2 {
-    width: 66%;
+    /* width: 66%; */
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 20px; /* Espaçamento adicional entre colunas */
     margin-bottom: 50px;
 }
 
 .column {
     display: flex; /* Torna o contêiner flexível */
-    align-items: flex-start; /* Alinha verticalmente os itens */
+    align-items: center; /* Alinha verticalmente os itens */
+    justify-content: center;
+    max-width: 60%;
+    margin: auto;
     gap: 15px; /* Espaçamento entre a imagem e o texto */
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 50px;
+    margin-top: 20px;
     flex: 1;
     background-color: #FFFFFF;
+    height: 300px;
+    transition: all 0.3s ease-in-out;
 }
 
 .column p {
     font-size: 30px;
-    margin-left: 20px;
-}
-    
-.column img.left-icon {
-    width: 450px; /* Define o tamanho do ícone */
-    height: 150px;
-    object-fit: contain; /* Ajusta o tamanho da imagem para caber no contêiner */
-    flex-shrink: 0; /* Evita que a imagem seja redimensionada em telas menores */
-    border-radius: 20px;
     margin-left: 20px;
 }
 
@@ -80,7 +87,9 @@
 }
 
 .column:hover {
-    background-color: #ddd;  /* Cor de fundo ao passar o mouse */
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: var(--darkBlue1);
 }
 
 /* Estilo do texto centralizado */

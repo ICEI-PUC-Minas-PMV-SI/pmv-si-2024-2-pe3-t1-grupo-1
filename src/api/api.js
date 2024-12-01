@@ -25,6 +25,12 @@ async function fetchDataFromSuperbase(tableName, columns = null, filter = null) 
     return { data, error }
 }
 
+async function insertDataIntoSuperbase(tableName, data) {
+    const { data: insertedData, error } = await supabase.from(tableName).insert(data);
+    return { insertedData, error }
+}
+
 export {
-    fetchDataFromSuperbase
+    fetchDataFromSuperbase,
+    insertDataIntoSuperbase
 }

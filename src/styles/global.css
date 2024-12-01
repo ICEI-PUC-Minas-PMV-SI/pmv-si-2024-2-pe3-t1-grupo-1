@@ -16,31 +16,59 @@
     --lightBlue1: #e3f1f4;
     --white: #FFFFFF;
     --black: #000000;
+    --lightRed: #e25656;
+    --lightGreen: #a2e7a2;
 }
 
-body{
+body {
     background-color: #F8F8F7;
 }
 
-h1 {
+main {
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+}
+
+.main-index {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+/* h1 {
     font-size: 60px;
     font-weight: bold;
     color: var(--darkBlue2);
-}
- 
-.principal {
+} */
+
+/* .principal {
     margin-left: 200px;
     margin-top: 30px;
-}
- 
-.principal p {
+} */
+
+/* .principal p {
     font-size: 36px;
     font-style: normal;
     color: var(--darkBlue2);
     margin-top: 15px;
-}
- 
-.iconesPagina {
+} */
+
+/* .iconesPagina {
     display: flex;
     position: fixed;
     flex-direction: column;
@@ -50,24 +78,24 @@ h1 {
     padding-right: 40px;
     border-right: 1px solid #CEC6C6;
     height: 100vh;
-}
- 
-.iconesPagina img {
+} */
+
+/* .iconesPagina img {
     margin: 30px 0;
-}
+} */
 
 /* Configuração da tooltip */
 
-.tooltip {
+/* .tooltip {
     position: relative;
     z-index: 2;
-  }
-   
-.tooltip .tooltiptext {
-    visibility: hidden; 
-    width: 290px; 
+} */
+
+/* .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 290px;
     background-color: #333;
-    color: #fff; 
+    color: #fff;
     text-align: center;
     font-size: 25px;
     padding: 10px 0;
@@ -78,10 +106,10 @@ h1 {
     transform: translateY(-50%);
     opacity: 0;
     transition: opacity 0.3s;
-  }
- 
-  .tooltip:hover .tooltiptext {
+} */
+
+/* .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
     z-index: 2;
-  }
+} */

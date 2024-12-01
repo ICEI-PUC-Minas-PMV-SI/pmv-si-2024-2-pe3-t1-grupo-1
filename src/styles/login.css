@@ -2,8 +2,8 @@
 
 #login {
     text-align: center;
-    padding: 100px;
     background-color: #F8F8F7;
+    margin: 2rem auto;
 }
 
 @media (max-width: 767px) {
@@ -26,10 +26,10 @@
 }
 
 .form-signin {
-     width: 80%; 
-     display: inline-block;
-     max-width: 350px;
-     margin: 0 auto;
+    width: 80%;
+    display: inline-block;
+    max-width: 350px;
+    margin: 0 auto;
 }
 
 #paragrafo-cadastro {
@@ -52,7 +52,7 @@
     font-family: 'League Spartan', sans-serif;
     font-weight: 500;
     width: 200px;
-    
+
 }
 
 .form-signin button:hover {
@@ -60,7 +60,7 @@
     color: white;
     font-weight: bold;
     border-color: #298EA6;
-    
+
 }
 
 .row {
@@ -71,7 +71,7 @@ body {
     background-color: #F8F8F7;
 }
 
- 
+
 #container-mobile {
     position: relative;
     text-align: center;
@@ -86,7 +86,7 @@ body {
     font-weight: bold;
 }
 
-  .centered { 
+.centered {
     /* Alinhando texto dentro da imagem */
     position: absolute;
     top: 80%;
@@ -97,45 +97,46 @@ body {
     white-space: nowrap;
     padding-bottom: 80px;
     font-family: 'League Spartan', sans-serif;
-  }
+}
 
-  #textosdesktop {
+#textosdesktop {
     font-family: 'League Spartan', sans-serif;
     font-size: 2.125rem;
-  }
+}
 
-  #textosdesktop2 {
+#textosdesktop2 {
     font-family: 'League Spartan', sans-serif;
     font-size: 1.050rem;
     color: #0D4366;
     font-weight: 400;
-  }
+}
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: var(--darkBlue1);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
-  footer {
-    color: #72757E;
-    font-weight: bold;
-    position:absolute;
-    bottom:0;
-    width:100%;
-    height:0px;
-    text-align: center;
-  }
-
-  #formularioEmail {
+#formularioEmail {
     border: 2px solid #298EA6;
     border-radius: 10px;
-  }
+}
 
-  #formularioSenha {
+#formularioSenha {
     border: 2px solid #298EA6;
     border-radius: 10px;
-  }
-
-  
+}
 
 
- /* RESPONSIVIDADE */
+
+
+/* RESPONSIVIDADE */
 
 @media (min-width: 767px) {
     #robotdesktop {
@@ -205,12 +206,12 @@ body {
     .form-signin {
         width: 50%;
         overflow: hidden;
-   }
+    }
 }
 
 @media (max-width: 767px) {
     footer {
-        display: none; 
+        display: none;
     }
 }
 
@@ -219,4 +220,3 @@ body {
         display: inline;
     }
 }
-
