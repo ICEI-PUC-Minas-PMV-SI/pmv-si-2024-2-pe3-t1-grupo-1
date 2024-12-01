@@ -6,31 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="..\styles\global.css">
     <link href="../styles/metas.css" rel="stylesheet">
-    <title>Ajuda</title>
+    <title>Metas</title>
 </head>
 
 <body>
     <div class="header">
-        <h1>Metas</h1>
+        <h1>Gerenciamento de Metas</h1>
         <div class="user-info">
             <div class="avatar-section">
                 <img src="../imgs/iconesTemplatePadrao/icon_avatar.png" alt="Avatar do usuário" class="avatar">
-                <p class="user-name">Usuário XXX</p>
+                <p class="user-name" id="userName"></p>
             </div>
             <div class="actions">
                 <a class="edit-info" href="../pages/GerenciarConta.html">
                     <img src="../imgs/iconesTemplatePadrao/icon_editar.svg" alt="Ícone editar"> Editar informações
                 </a>
-                <p class="logout">
+                <a class="logout" href="../index.html">
                     <img src="../imgs/iconesTemplatePadrao/icon_sair.svg" alt="Ícone sair"> Sair
-                </p>
+                </a>
             </div>
         </div>
     </div>
     <div class="main">
         <div class="sidebar">
             <img src="../imgs/iconesTemplatePadrao/logo projeto.svg">
-            <a href="..\pages\PaginaInicialLogado.html" style="background-color: #D4DCDE;">
+            <a href="..\pages\PaginaInicialLogado.html">
                 <img src="../imgs/iconesTemplatePadrao/icon_paginainicial.svg">
             </a>
             <a href="..\pages\comunidades.html">
@@ -45,15 +45,21 @@
             <a href="..\pages\atividades_fisicas.html">
                 <img src="..\imgs\iconesTemplatePadrao\icon_atividadesfisicas.svg">
             </a>
-            <img src="..\imgs\iconesTemplatePadrao\icon_sono.svg">
-            <img src="..\imgs\iconesTemplatePadrao\icon_humor.svg">
-            <img src="..\imgs\iconesTemplatePadrao\icon_metas.svg">
+            <a href="../pages/sono.html">
+                <img src="..\imgs\iconesTemplatePadrao\icon_sono.svg">
+            </a>
+            <a href="../pages/humor.html">
+                <img src="..\imgs\iconesTemplatePadrao\icon_humor.svg">
+            </a>
+            <a href="..\pages/metas.html">
+                <img src="..\imgs\iconesTemplatePadrao\icon_metas.svg">
+            </a>
             <a href="..\pages\Ajuda.html">
                 <img src="..\imgs\iconesTemplatePadrao/icon_ajuda.svg">
             </a>
         </div>
         <div class="principal">
-            <p class="slogan-title">Olá usuário XXX, estas são as suas Metas.</p>
+            <p id="slogan-title" class="slogan-title"></p>
             <div class="container-cards">
                 <div class="cards">
                     <h3>Atividades Físicas</h3>
@@ -96,6 +102,11 @@
             <button class="button-addmeta">Add. Meta</button>
         </div>
     </div>
+
+    <script>
+        document.getElementById("userName").innerText = "Olá, " + localStorage.getItem("userName") + "!";
+        document.getElementById("slogan-title").innerText = "Olá, " + localStorage.getItem("userName") + ", estas são as suas Metas.";
+    </script>
 </body>
 
 </html>
