@@ -38,8 +38,8 @@ document.addEventListener("DOMContentLoaded", async () => {
                     <p>${alimentacao.refeicao}</p> 
                      <p>${alimentacao.alimentos}</p>
                     <p>${alimentacao.calorias}</p>
-                    <button onclick="deleteAlimentacao(${alimentacao.id})">Apagar</button>
-                    <button onclick='editAlimentacao(${JSON.stringify(alimentacao)})'>Editar</button>
+                    <button class="button-update" onclick='editAlimentacao(${JSON.stringify(alimentacao)})'>Editar</button>
+                    <button class="button-delete" onclick="deleteAlimentacao(${alimentacao.id})">Apagar</button>
                 `;
         containerTabela.appendChild(activityElement);
     });
