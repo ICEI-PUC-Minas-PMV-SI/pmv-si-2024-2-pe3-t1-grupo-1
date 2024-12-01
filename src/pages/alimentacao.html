@@ -64,16 +64,6 @@
             <p class="slogan-title">Registre os alimentos consumidos e acompanhe histórico calórico e nutricional</p>
             <div class="quadro_tabela">
                 <div class="container-buttons">
-                    <div class="filtros">
-                        <div class="filtro_nome">
-                            <button id="btnNomeFiltro">Refeição<img src="../imgs/iconesTemplatePadrao/seta_filter.svg"
-                                    class="icone_seta_filter"></button>
-                        </div>
-                        <div class="filtro_categoria">
-                            <button id="btnCategoriaFiltro">Alimentos<img src="../imgs/iconesTemplatePadrao/seta_filter.svg"
-                                    class="icone_seta_filter"></button>
-                        </div>
-                    </div>
                     <div class="btn_adicionar">
                         <button id="openModal">ADICIONAR</button>
                     </div>
@@ -91,27 +81,67 @@
     </div>
 
     <!-- Modal container -->
-    <div id="modalContainer" class="modalOverlay">
-        <div class="modal"></div>
-        <div class="modal-conteudo" id="conteudoModal">
+    <div id="modalContainer" class="modal-overlay">
+        <div class="modal">
+            <h1 class="modal-title">Cadastro de alimentação</h1>
+            <form class="modal-form">
+                <label class="modal-label">Refeição
+                    <select id="refeicao" class="modal-input">
+                        <option value=""></option>
+                        <option value="Café da manhã">Café da manhã</option>
+                        <option value="Almoço">Almoço</option>
+                        <option value="Lanche da tarde">Lanche da tarde</option>
+                        <option value="Jantar">Jantar</option>
+                    </select>
+                </label>
+
+                <label class="modal-label">Alimentos
+                    <textarea id="alimentos" class="modal-input" rows="5"></textarea>
+                </label>
+
+                <label class="modal-label">Calorias
+                    <input  class="modal-input" type="number" id="calorias" required>
+                </label>
+            </form>
+
+            <div class="container-modal-buttons">
+                <button id="closeModal" class="modal-button">Cancelar</button>
+                <button id="submitModal" class="modal-button">Salvar</button>
+            </div>
         </div>
     </div>
 
-    <!-- filtro nome container -->
-    <div id="filtroNomeContainer" class="nomeContainer">
-        <div class="filtroNome-conteudo" id="filtroNomeModal">
-        </div>
-    </div>
+    <div id="modalContainerEditar" class="modal-overlay">
+        <div class="modal">
+            <h1 class="modal-title">Cadastro de alimentação</h1>
+            <form class="modal-form">
+                <label class="modal-label">Refeição
+                    <select id="refeicaoEdit" class="modal-input">
+                        <option value=""></option>
+                        <option value="Café da manhã">Café da manhã</option>
+                        <option value="Almoço">Almoço</option>
+                        <option value="Lanche da tarde">Lanche da tarde</option>
+                        <option value="Jantar">Jantar</option>
+                    </select>
+                </label>
 
-    <!-- filtro categoria container -->
-    <div id="filtroCategoriaContainer" class="categoriaContainer">
-        <div class="filtroCategoria-conteudo" id="filtroCategoriaModal">
+                <label class="modal-label">Alimentos
+                    <textarea id="alimentosEdit" class="modal-input" rows="5"></textarea>
+                </label>
+
+                <label class="modal-label">Calorias
+                    <input  class="modal-input" type="number" id="caloriasEdit" required>
+                </label>
+            </form>
+
+            <div class="container-modal-buttons">
+                <button id="closeModalEditar" class="modal-button">Cancelar</button>
+                <button id="submitModalEditar" class="modal-button">Salvar</button>
+            </div>
         </div>
     </div>
 
     <script type="module" src="..\api/alimentacao.js"></script>
-    <!-- <script src="../js/telaFiltroNome.js"></script>
-    <script src="../js/telaFiltroCategoria.js"></script> -->
 
     <script>
         document.getElementById("userName").innerText = "Olá, " + localStorage.getItem("userName") + "!";

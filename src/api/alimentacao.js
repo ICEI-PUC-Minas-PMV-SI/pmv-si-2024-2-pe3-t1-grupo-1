@@ -1,4 +1,6 @@
 import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
+import { deleteDataFromSuperbase, insertDataIntoSuperbase, updateDataIntoSuperbase } from "./api.js";
+
 
 const supabaseUrl = 'https://hevdlxedgheoasmulaur.supabase.co';
 const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhldmRseGVkZ2hlb2FzbXVsYXVyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mjg3MzEzOTcsImV4cCI6MjA0NDMwNzM5N30.sTufiGo0-7FLgoWv4uWTEFyEk0OK_54BGsgcZYtOtD4';
@@ -36,50 +38,133 @@ document.addEventListener("DOMContentLoaded", async () => {
                     <p>${alimentacao.refeicao}</p> 
                      <p>${alimentacao.alimentos}</p>
                     <p>${alimentacao.calorias}</p>
+                    <button onclick="deleteAlimentacao(${alimentacao.id})">Apagar</button>
+                    <button onclick='editAlimentacao(${JSON.stringify(alimentacao)})'>Editar</button>
                 `;
         containerTabela.appendChild(activityElement);
     });
 });
 
-let btnAdicionar = document.getElementById("openModal");
-let modalContainer = document.getElementById("modalContainer");
-let conteudoModal = document.getElementById("conteudoModal");
+const btnAdicionar = document.getElementById("openModal");
+const modalContainer = document.getElementById("modalContainer");
+const modalContainerEditar = document.getElementById("modalContainerEditar");
 
+const closeModal = document.getElementById("closeModal");
+const closeModalEditar = document.getElementById("closeModalEditar");
+const submitModal = document.getElementById("submitModal");
+const submitModalEditar = document.getElementById("submitModalEditar");
+
+const inputRefeicao = document.getElementById("refeicao");
+const inputAlimentos = document.getElementById("alimentos");
+const inputCalorias = document.getElementById("calorias");
+
+const inputRefeicaoEditar = document.getElementById("refeicaoEdit");
+const inputAlimentosEditar = document.getElementById("alimentosEdit");
+const inputCaloriasEditar = document.getElementById("caloriasEdit");
+
+
+closeModal.addEventListener("click", () => {
+    modalContainer.style.display = "none";
+})
+
+closeModalEditar.addEventListener("click", () => {
+    modalContainerEditar.style.display = "none";
+})
 
 btnAdicionar.addEventListener("click", () => {
-    modalContainer.style.display = "block";
+    console.log("Clicou no botão adicionar");
+    modalContainer.style.display = "flex";
+    modalContainer.style.justifyContent = "center";
+    modalContainer.style.alignItems = "center";
 
-   
+    inputRefeicao.value = "";
+    inputAlimentos.value = "";
+    inputCalorias.value = "";
+
 })
 
 
-// Clicando sobre o botão adicionar
-// btnAdicionar.onclick = function () {
 
-//     console.log("Clicou no botão adicionar");
+submitModal.addEventListener("click", submitModalFunction);
 
-//     modalContainer.style.display = "block";
+async function submitModalFunction() {
+    {
+        const userid = localStorage.getItem('userId');
+        const data = {
+            userid,
+            refeicao: inputRefeicao.value,
+            alimentos: inputAlimentos.value,
+            calorias: inputCalorias.value
+        }
+        const userResponse = await insertDataIntoSuperbase('Alimentacao', data)
+            .then(({ insertedData, error }) => {
+                if (!error) {
+                    alert("Alimentação cadastrada com sucesso!");
+                    window.location.reload();
+                    return insertedData;
+                }
+                return false;
+            })
+            .catch(err => console.error("Erro na requisição:", err));
 
-//     fetch('criar_atividadeFisica.html')
-//         .then(response => response.text())
-//         .then(html => {
-//             conteudoModal.innerHTML = html;
+        return userResponse;
+    }
+}
 
-//             var btnVoltar = conteudoModal.querySelector("#btnvoltar");
-//             if (btnVoltar) {
-//                 btnVoltar.onclick = function () {
-//                     modalContainer.style.display = "none";  // Fecha o modal
-//                 };
-//             }
+window.deleteAlimentacao = deleteAlimentacao;
+window.editAlimentacao = editAlimentacao;
 
-//             var btnFiltrar = conteudoModal.querySelector("#btnfiltrar");
-//             if (btnFiltrar) {
-//                 btnFiltrar.onclick = function () {
+async function deleteAlimentacao(id) {
+    console.log("Clicou no botão apagar");
+    console.log(id);
+    const userResponse = await deleteDataFromSuperbase('Alimentacao', id)
+        .then(({ deletedData, error }) => {
+            if (!error) {
+                alert("Alimentação apagada com sucesso!");
+                window.location.reload();
+                return deletedData;
+            }
+            return false;
+        })
+        .catch(err => console.error("Erro na requisição:", err));
+}
 
-//                     modalContainer.style.display = "none";
+function editAlimentacao(alimentacao) {
 
-//                 };
-//             }
-//         })
-//         .catch(error => console.error("Um erro foi encontrado durante a execução do código", error));
-// }
+    console.log("Clicou no botão editar");
+    modalContainerEditar.style.display = "flex";
+    modalContainerEditar.style.justifyContent = "center";
+    modalContainerEditar.style.alignItems = "center";
+
+    inputRefeicaoEditar.value = alimentacao.refeicao;
+    inputAlimentosEditar.value = alimentacao.alimentos;
+    inputCaloriasEditar.value = alimentacao.calorias;
+
+
+    const id = alimentacao.id;
+
+    submitModalEditar.addEventListener("click", () => updateModalFunction(id));
+}
+
+async function updateModalFunction(id) {
+
+    const body = {
+        refeicao: inputRefeicaoEditar.value,
+        alimentos: inputAlimentosEditar.value,
+        calorias: inputCaloriasEditar.value
+    }
+
+    const userResponse = await updateDataIntoSuperbase('Alimentacao', body, id)
+        .then(({ updatedData, error }) => {
+            if (!error) {
+                alert("Alimentação atualizada com sucesso!");
+                window.location.reload();
+                return updatedData;
+            }
+            return false;
+        })
+        .catch(err => console.error("Erro na requisição:", err));
+
+    return userResponse;
+
+}

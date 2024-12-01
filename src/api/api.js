@@ -30,7 +30,20 @@ async function insertDataIntoSuperbase(tableName, data) {
     return { insertedData, error }
 }
 
+async function deleteDataFromSuperbase(tableName, id) {
+    console.log(id)
+    const { data: deletedData, error } = await supabase.from(tableName).delete().eq('id', id);
+    return { deletedData, error }
+}
+
+async function updateDataIntoSuperbase(tableName, data, id) {
+    const {error} = await supabase.from(tableName).update(data).eq('id', id);
+    return { error }
+}
+
 export {
     fetchDataFromSuperbase,
-    insertDataIntoSuperbase
+    insertDataIntoSuperbase,
+    updateDataIntoSuperbase,
+    deleteDataFromSuperbase
 }
