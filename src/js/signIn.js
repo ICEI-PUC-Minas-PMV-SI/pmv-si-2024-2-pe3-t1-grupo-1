@@ -13,8 +13,9 @@ async function signIn() {
     const emailUsuario = document.getElementById('userEmailInput').value;
     const password = document.getElementById('userPasswordInput').value;
 
-    const userResponse = await fetchDataFromSuperbase('usuario', ['nomeusuario', 'emailusuario', 'senhausuario'], [{ columnName: 'emailusuario', columnValue: emailUsuario }, { columnName: 'senhausuario', columnValue: password }])
+    const userResponse = await fetchDataFromSuperbase('usuario', ['nomeusuario', 'emailusuario', 'senhausuario', 'idusuario'], [{ columnName: 'emailusuario', columnValue: emailUsuario }, { columnName: 'senhausuario', columnValue: password }])
         .then(({ data, error }) => {
+            console.log("DATA", data);
             if (!error) {
                 return data[0];
             }
@@ -24,6 +25,7 @@ async function signIn() {
 
     userName = userResponse.nomeusuario;
     localStorage.setItem('userName', userName);
+    localStorage.setItem('userId', userResponse.idusuario);
     return userResponse;
 }
 

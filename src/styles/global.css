@@ -20,6 +20,10 @@
     --lightGreen: #a2e7a2;
 }
 
+html {
+    height: 100vh;
+}
+
 body {
     background-color: #F8F8F7;
 }

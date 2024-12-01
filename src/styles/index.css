@@ -125,6 +125,7 @@
     align-items: center;
     gap: 20px;
     margin-top: 2rem;
+    padding-bottom: 200px;
 }
 
 .title-ad {
@@ -143,7 +144,7 @@
     height: 80px;
     background-color: var(--darkBlue1);
     color: white;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }

@@ -1,31 +1,39 @@
-var btnAdicionar = document.getElementById("openModal");
-var modalContainer = document.getElementById("modalContainer");
-var conteudoModal = document.getElementById("conteudoModal");
+let btnAdicionar = document.getElementById("openModal");
+let modalContainer = document.getElementById("modalContainer");
+let conteudoModal = document.getElementById("conteudoModal");
+
+btnAdicionar.addEventListener("click", () => {
+    console.log("Clicou no botão adicionar");
+})
+
 
 // Clicando sobre o botão adicionar
-btnAdicionar.onclick = function () {
-    modalContainer.style.display = "block";
+// btnAdicionar.onclick = function () {
 
-    fetch('criar_atividadeFisica.html')
-        .then(response => response.text())
-        .then(html => {
-            conteudoModal.innerHTML = html;
+//     console.log("Clicou no botão adicionar");
 
-            var btnVoltar = conteudoModal.querySelector("#btnvoltar");
-            if (btnVoltar) {
-                btnVoltar.onclick = function () {
-                    modalContainer.style.display = "none";  // Fecha o modal
-                };
-            }
+//     modalContainer.style.display = "block";
 
-            var btnFiltrar = conteudoModal.querySelector("#btnfiltrar");
-            if (btnFiltrar) {
-                btnFiltrar.onclick = function () {
+//     fetch('criar_atividadeFisica.html')
+//         .then(response => response.text())
+//         .then(html => {
+//             conteudoModal.innerHTML = html;
 
-                    modalContainer.style.display = "none";
+//             var btnVoltar = conteudoModal.querySelector("#btnvoltar");
+//             if (btnVoltar) {
+//                 btnVoltar.onclick = function () {
+//                     modalContainer.style.display = "none";  // Fecha o modal
+//                 };
+//             }
 
-                };
-            }
-        })
-        .catch(error => console.error("Um erro foi encontrado durante a execução do código", error));
-}
+//             var btnFiltrar = conteudoModal.querySelector("#btnfiltrar");
+//             if (btnFiltrar) {
+//                 btnFiltrar.onclick = function () {
+
+//                     modalContainer.style.display = "none";
+
+//                 };
+//             }
+//         })
+//         .catch(error => console.error("Um erro foi encontrado durante a execução do código", error));
+// }

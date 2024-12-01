@@ -19,7 +19,7 @@ const supabaseUrl = 'https://hevdlxedgheoasmulaur.supabase.co';
  
         // Função para aguardar o conteúdo carregar dentro da página com eventListener e em paralelo tenho a chamada da função assincrona
         document.addEventListener("DOMContentLoaded", async () => {
-            const tableName = "AtividadeFisica"; 
+            const tableName = "QualidadeSono"; 
             const { data, error } = await fetchDataFromSupabase(tableName); 
  
             if (error) {
@@ -29,14 +29,12 @@ const supabaseUrl = 'https://hevdlxedgheoasmulaur.supabase.co';
  
             const containerTabela = document.querySelector("#data-container"); 
             containerTabela.innerHTML = ""; 
-            data.forEach(activity => {
-                if (activity.userid !== userId) return;
+            data.forEach(sono => {
+                if (sono.userid !== userId) return;
                 const activityElement = document.createElement('div'); 
                 activityElement.innerHTML = ` 
-                    <p>${activity.nome}</p> 
-                     <p>${activity.categoria}</p>
-                    <p>${activity.duracao}</p>
-                    <p>${activity.intensidade}</p>
+                    <p>${sono.horarioDormir}</p> 
+                     <p>${sono.horarioAcordar}</p>
                 `;
                 containerTabela.appendChild(activityElement); 
             });

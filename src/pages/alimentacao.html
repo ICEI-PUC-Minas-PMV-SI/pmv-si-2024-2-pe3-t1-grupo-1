@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/global.css">
     <link rel="stylesheet" href="../styles/alimentacao.css">
+    <link rel="stylesheet" href="../styles/modal.css">
+    <link rel="shortcut icon" href="../imgs/index/Vector.png" type="image/x-icon">
     <title>Alimentação</title>
 </head>
 
@@ -15,22 +17,22 @@
         <div class="user-info">
             <div class="avatar-section">
                 <img src="../imgs/iconesTemplatePadrao/icon_avatar.png" alt="Avatar do usuário" class="avatar">
-                <p class="user-name">Usuário XXX</p>
+                <p class="user-name" id="userName">Usuário XXX</p>
             </div>
             <div class="actions">
-                <p class="edit-info">
+                <a class="edit-info">
                     <img src="../imgs/iconesTemplatePadrao/icon_editar.svg" alt="Ícone editar"> Editar informações
-                </p>
-                <p class="logout">
+                </a>
+                <a class="logout" href="../index.html">
                     <img src="../imgs/iconesTemplatePadrao/icon_sair.svg" alt="Ícone sair"> Sair
-                </p>
+                </a>
             </div>
         </div>
     </div>
     <div class="main">
         <div class="sidebar">
             <img src="../imgs/iconesTemplatePadrao/logo projeto.svg">
-            <a href="..\pages\PaginaInicialLogado.html" style="background-color: #D4DCDE;">
+            <a href="..\pages\PaginaInicialLogado.html">
                 <img src="../imgs/iconesTemplatePadrao/icon_paginainicial.svg">
             </a>
             <a href="..\pages\comunidades.html">
@@ -45,9 +47,15 @@
             <a href="..\pages\atividades_fisicas.html">
                 <img src="..\imgs\iconesTemplatePadrao\icon_atividadesfisicas.svg">
             </a>
-            <img src="..\imgs\iconesTemplatePadrao\icon_sono.svg">
-            <img src="..\imgs\iconesTemplatePadrao\icon_humor.svg">
-            <img src="..\imgs\iconesTemplatePadrao\icon_metas.svg">
+            <a href="../pages/sono.html">
+                <img src="..\imgs\iconesTemplatePadrao\icon_sono.svg">
+            </a>
+            <a href="../pages/humor.html">
+                <img src="..\imgs\iconesTemplatePadrao\icon_humor.svg">
+            </a>
+            <a href="..\pages/metas.html">
+                <img src="..\imgs\iconesTemplatePadrao\icon_metas.svg">
+            </a>
             <a href="..\pages\Ajuda.html">
                 <img src="..\imgs\iconesTemplatePadrao/icon_ajuda.svg">
             </a>
@@ -55,25 +63,26 @@
         <div class="container_principal">
             <p class="slogan-title">Registre os alimentos consumidos e acompanhe histórico calórico e nutricional</p>
             <div class="quadro_tabela">
-                <div class="filtros">
-                    <div class="filtro_nome">
-                        <button id="btnNomeFiltro">Refeição<img src="../imgs/iconesTemplatePadrao/seta_filter.svg"
-                                class="icone_seta_filter"></button>
+                <div class="container-buttons">
+                    <div class="filtros">
+                        <div class="filtro_nome">
+                            <button id="btnNomeFiltro">Refeição<img src="../imgs/iconesTemplatePadrao/seta_filter.svg"
+                                    class="icone_seta_filter"></button>
+                        </div>
+                        <div class="filtro_categoria">
+                            <button id="btnCategoriaFiltro">Alimentos<img src="../imgs/iconesTemplatePadrao/seta_filter.svg"
+                                    class="icone_seta_filter"></button>
+                        </div>
                     </div>
-                    <div class="filtro_categoria">
-                        <button id="btnCategoriaFiltro">Alimentos<img src="../imgs/iconesTemplatePadrao/seta_filter.svg"
-                                class="icone_seta_filter"></button>
+                    <div class="btn_adicionar">
+                        <button id="openModal">ADICIONAR</button>
                     </div>
-                </div>
-                <div class="btn_adicionar">
-                    <button id="openModal">ADICIONAR</button>
                 </div>
                 <div id="fundo_colunas">
                     <div id="top_column">
                         <h3 id="nome">Refeição</h3>
                         <h3>Alimentos Consumidos</h3>
                         <h3>Calorias</h3>
-                        <!-- <h3>Intensidade</h3> -->
                     </div>
                 </div>
                 <div id="data-container"></div>
@@ -82,7 +91,8 @@
     </div>
 
     <!-- Modal container -->
-    <div id="modalContainer" class="modal">
+    <div id="modalContainer" class="modalOverlay">
+        <div class="modal"></div>
         <div class="modal-conteudo" id="conteudoModal">
         </div>
     </div>
@@ -98,10 +108,15 @@
         <div class="filtroCategoria-conteudo" id="filtroCategoriaModal">
         </div>
     </div>
-    <script type="module" src="..\api\atvdFisica.js"></script>
-    <script src="../js/telaFiltroNome.js"></script>
-    <script src="../js/telaFiltroCategoria.js"></script>
-    <script src="../js/telaCriarAtividade.js"></script>
+
+    <script type="module" src="..\api/alimentacao.js"></script>
+    <!-- <script src="../js/telaFiltroNome.js"></script>
+    <script src="../js/telaFiltroCategoria.js"></script> -->
+
+    <script>
+        document.getElementById("userName").innerText = "Olá, " + localStorage.getItem("userName") + "!";
+        document.getElementById("userNameP").innerText = "Olá, " + localStorage.getItem("userName") + "!";
+    </script>
 </body>
 
 </html>
