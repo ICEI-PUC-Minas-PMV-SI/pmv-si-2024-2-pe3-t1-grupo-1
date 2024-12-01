@@ -40,6 +40,28 @@ const getUserData = async () => {
     return userData
 }
 
+const updateEntity = async () => {
+    const tableName = "usuario";
+
+    const nameInputValue = document.getElementById("userNameInput").value
+    const userAgeInputValue = document.getElementById("userAgeInput").value
+    const userPhoneInputValue = document.getElementById("userPhoneInput").value
+    const userEmailInputValue = document.getElementById("userEmailInput").value
+    const userPasswordInputValue = document.getElementById("userPasswordInput").value
+
+    if(nameInputValue &&userAgeInputValue &&  userPhoneInputValue && userEmailInputValue &&userPasswordInputValue ) {
+        await supabase.from(tableName).update({
+            nomeusuario: nameInputValue,
+            idadeusuario: userAgeInputValue,
+            telefoneusuario: userPhoneInputValue,
+            emailusuario: userEmailInputValue,
+            senhausuario: userPasswordInputValue
+        }).eq('idusuario', Number(userId));
+
+        alert("Dados atualizados com sucesso!");
+    } 
+}
+
 const fullfilUserForm = async () => {
     const userData = await getUserData()
 
@@ -59,4 +81,8 @@ const fullfilUserForm = async () => {
 }
 
 await fullfilUserForm()
+
+document.getElementById('confirmEditButton').addEventListener('click', async () => {
+    await updateEntity();
+})
 
