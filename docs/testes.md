@@ -12,3 +12,9 @@ Material de apoio para esta etapa:
 
 [Relatorio_de_Testes_Usuário_01_(Martha Beatriz).docx](https://github.com/user-attachments/files/17971408/Relatorio_de_Testes_Usuario_01_.Martha.Beatriz.docx)
 
+[Relatorio_de_Testes_Usuário_02_(Filipe Acacio).docx](https://github.com/user-attachments/files/17971410/Relatorio_de_Testes_Usuario_02_.Filipe.Acacio.docx)
+
+[Relatório_de_Testes_Usuário_03_(Fabiana Santos Soares).docx](https://github.com/user-attachments/files/17971415/Relatorio_de_Testes_Usuario_03_.Fabiana.Santos.Soares.docx)
+
+[Relatório_de_Testes_Usuário_04_(João Oliveira).docx](https://github.com/user-attachments/files/17971418/Relatorio_de_Testes_Usuario_04_.Joao.Oliveira.docx)
+
