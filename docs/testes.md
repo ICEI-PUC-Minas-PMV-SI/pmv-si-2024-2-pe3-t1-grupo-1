@@ -18,8 +18,7 @@ Ao final, os relatórios gerados por cada membro deverão ser disponibilizados a
 
 [Relatorio de Testes - Usuário 06 (Gregory Stevao).docx](https://github.com/user-attachments/files/17970871/Relatorio.de.Testes.-.Usuario.06.Gregory.Stevao.docx)
 
-
-
+[Relatorio de Testes - Usuário 01 (Martha Beatriz).docx](https://github.com/user-attachments/files/17970884/Relatorio_de_Testes_Usuario_01_Martha_Beatriz.docx)
 
 
 
