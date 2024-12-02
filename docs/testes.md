@@ -20,5 +20,5 @@ Material de apoio para esta etapa:
 
 [Relatorio_de_Testes_Usuário_05_(Viviane Pertence).docx](https://github.com/user-attachments/files/17971457/Relatorio_de_Testes_Usuario_05_.Viviane.Pertence.docx)
 
-[Relatorio de Testes - Usuário 06 (Gregory Stevao).docx](https://github.com/user-attachments/files/17971460/Relatorio.de.Testes.-.Usuario.06.Gregory.Stevao.docx)
+[Relatorio_de_Testes_Usuário_06_(Gregory Stevao).docx](https://github.com/user-attachments/files/17971460/Relatorio.de.Testes.-.Usuario.06.Gregory.Stevao.docx)
 
