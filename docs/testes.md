@@ -7,11 +7,17 @@ Nesta etapa devem ser realizados dois tipos de avaliação: por observação de 
 Ao final, os relatórios gerados por cada membro deverão ser disponibilizados aqui, juntamente com a planilha consolidada da avaliação heurística.
 
 [AVALIAÇÃO HEURÍSTICA.xlsx](https://github.com/user-attachments/files/17970864/AVALIACAO.HEURISTICA.xlsx)
+
 [Relatorio de Testes - Usuário 01 (Martha Beatriz).docx](https://github.com/user-attachments/files/17970865/Relatorio.de.Testes.-.Usuario.01.Martha.Beatriz.docx)
+
 [Relatorio de Testes - Usuário 02 (Filipe Acacio).docx](https://github.com/user-attachments/files/17970867/Relatorio.de.Testes.-.Usuario.02.Filipe.Acacio.docx)
+
 [Relatório de Testes - Usuário 03 (Fabiana Santos Soares).docx](https://github.com/user-attachments/files/17970868/Relatorio.de.Testes.-.Usuario.03.Fabiana.Santos.Soares.docx)
+
 [Relatório de Testes - Usuário 04 (João Oliveira).docx](https://github.com/user-attachments/files/17970869/Relatorio.de.Testes.-.Usuario.04.Joao.Oliveira.docx)
+
 [Relatorio de Testes - Usuário 06 (Gregory Stevao).docx](https://github.com/user-attachments/files/17970871/Relatorio.de.Testes.-.Usuario.06.Gregory.Stevao.docx)
+
 
 
 
