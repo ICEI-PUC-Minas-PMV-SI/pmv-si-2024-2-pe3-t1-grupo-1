@@ -18,3 +18,7 @@ Material de apoio para esta etapa:
 
 [Relatório_de_Testes_Usuário_04_(João Oliveira).docx](https://github.com/user-attachments/files/17971418/Relatorio_de_Testes_Usuario_04_.Joao.Oliveira.docx)
 
+[Relatorio_de_Testes_Usuário_05_(Viviane Pertence).docx](https://github.com/user-attachments/files/17971457/Relatorio_de_Testes_Usuario_05_.Viviane.Pertence.docx)
+
+[Relatorio de Testes - Usuário 06 (Gregory Stevao).docx](https://github.com/user-attachments/files/17971460/Relatorio.de.Testes.-.Usuario.06.Gregory.Stevao.docx)
+
